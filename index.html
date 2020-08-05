@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home of the LEAP Project</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    </head>
+
+    <script type="text/javascript" src="animations.js"></script>
+
+    <div class="logo">
+        <img src="images/LEAP_INS_WHITE.png" alt = "Failed to load logo" width="300px" id="logoimg">
+    </div>
+
+    <body>
+        <div class = "hidden">
+            <section id = "home">
+                <div id = "home">
+                </div>
+            </section>
+
+            <div id = "title">
+                <h1>Welcome To LEAP</h1>
+            </div>
+            
+            <div id = "nav">
+                    <ul>
+                        <li><a href= "#mission">Mission</a></li>
+                        <li><a href= "#about">About</a></li>
+                        <li><a class="selected" href= "#home">Home</a></li>
+                        <li><a href= "#acc">Accomplishments</a></li>
+                        <li><a href= "#Aaron">Our Team</a></li>
+                    </ul>
+            </div>
+        
+            <section id = "mission">
+                <h3 class="header">Mission</h3>
+                <p>On May 6th 2017, The Economist declared that the world's most valuable resource is no longer oil but instead information. It has been a trend since 2016 that the top ten market cap holders consist almost exclusively of information tech companies. This includes multinational conglomerate constituents who are now also absent of oil driven businesses. The radical market shift towards data harvesting and internet advertising means that data security is more important now than ever before.</p>
+                <p>Data security begins with the underlying network technology. According to the Massachusetts Broadband Institute the common broadband network technologies in North America consist of digital subscriber line, cable modem, fibre optic, fixed/mobile wireless and satellite. These technologies use wire or radio spectrum which are insecure forms of data transmission and are susceptible to network taps . To transfer data securely, these networks must employ data encryption . However, encryption algorithms have increasingly shorter half-lives due to recent advances in computer processing. Encryption alone is not a reliable solution for securing data.</p>
+                <p>Light fidelity (LiFi) is an emerging technology which uses light as a communication medium rather than radio or cable6 . Current LiFi technologies are short-range baseband broadcast communication networks which operate by flickering a light emitting diode (LED) many times per second to transmit data to a photoreceiver which captures the light and converts it to readable data. LiFi operates in unregulated spectrum making it is inexpensive to operate and also providing stable transmission streams with less interference. This is due to available wide bandwidth channels as compared to traditional satellite or radio.</p>
+                <p>Most importantly, LiFi allows for naturally secure transmission since light is contained to receivers operating within the line-of-sight (LoS) of the transmitter. However, broadcast networks are imperfect as a network tap can still operate within the LoS. The purpose of this project is to solve this problem by integrating point-to-multipoint (P2MP) communication using specially designed embedded systems for LiFi transmission and reception. Finally, the technology will be accompanied by redesigned network protocols and addressing methods from a combination of pre-existing network technologies. </p>
+            </section>
+
+            <section id = "about">
+                <h3 class="header">About</h3>
+                <p>Light Emitting Access Point (LEAP) technology aims to revolutionize transmission security by fusing LiFi and P2MP communication by requiring subscribed receivers to be precisely positioned relative to an LED cube to interpret transmission data. LEAP technology includes network protocols, addressing, and real-time embedded hardware which will work concurrently to provide secure, fixed, multiple-access downlink with the potential to greatly increase traditional LiFi bandwidth capabilities. In the future, LEAP technology will be a platform for secure LiFi broadband integration which will make it one of the most advanced communication methods in modern networking.</p>
+                <p>For the scope of this project, the goal is to simulate LEAP technology for applications in secure building-to-building or indoor government/business networking operations. By the end of the project term the project aims to demonstrate that the system/network architecture can be applied to broadband systems graded to operate close to maximum theoretical bit rates.</p>
+            </section>
+
+            <section id = "acc">
+                <h3 class="header">Accomplishments</h3>
+                <p>We were able to successfully achieve a parallel light driven data transmission using a 4x4x4 LED cube and a webcam. On start, the LED cube would start transmitting random arrays of data. A receiver would then be able to read those random points until a neural network can be constructed using those random points. The receiver would send a frame data to the transmitter via wifi link to allow the transmitter acknowledge there is a receiver listening. Based on the frame data sent, the transmitter is able to detect where the transmitter is receiving. The cache built in for each side of the cube's transmission holds the recent data transmitted. If the receiver's frame data matches one of the values found in either of the caches, the receiver can be validated and the direction is known. Once the connection is set, we are able to select files to transmit to the receiver. The user would select the desired files and the files would then be converted into byte arrays and then hardware mapped to the cube. The receiver would read in these values from the cube. The neural structure in the receiver algorithm (IRIS) maps the LEDs and prints out a bytearray using the spatial-codec. The byte array is then used to recreate the file.  </p>
+                <img src="images/leap_proj2.jpg" alt = "Failed to load: leap_proj.jpc" class = "irlpic" />
+            </section>
+
+            <section id = "team">
+                <h3 class="header">Our Team</h3>
+                <div id="Christian">
+                    <img src="images/christian.JPG" alt = "Failed to load: christian.jpg" width="80%"/>
+                    <h2>Christian Sargusingh, CSE</h2>
+                    <p>I am the lead software developer as well as the team leader for the LEAP project. I designed and implemented the majority the LEAP and IRIS softwares.</p>
+                </div>
+                <div id="Aaron">
+                    <img src="images/aaron.JPG" alt = "Failed to load: aaron.jpg" width="80%"/>
+                    <h2>Aaron Huang, EE</h2>
+                    <p>I am the lead hardware designer. I was responsible for designing the physical cube. I designed the cube specifically to be used for the LEAP software.</p>
+                </div>
+                <div id="Steven">
+                    <img src="images/steve.JPG" alt = "Failed to load: steve.jpg" width="79%"/>
+                    <h2>Steven Zhou, CSE</h2>
+                    <p>I am the secondary developer and the front end designer for the LEAP project. I helped implement and test the software, as well as created this website.</p>
+                </div>
+            </section>
+
+            <div id = "footer">
+                Copyright &copy; 2019 LEAP Project.
+            </div>
+        </div>
+    </body>
+
+
+</html>
