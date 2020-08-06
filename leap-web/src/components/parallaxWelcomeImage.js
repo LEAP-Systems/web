@@ -11,7 +11,7 @@ class ParallaxWelcomeImage extends Component {
     return (
       <Container fluid className="max-width">
         <ParallaxProvider>
-          <Parallax z={[-20, 20]} tagOuter="figure">
+          <Parallax y={[0, 0]} tagOuter="figure">
             <Image className="para-img" src={welcomeImage} />
           </Parallax>
         </ParallaxProvider>
