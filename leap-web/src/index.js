@@ -2,11 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import TopBar from "./components/topBar";
+import welcomeDOM from "./components/welcomeDOM";
 import * as serviceWorker from "./serviceWorker";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.render(
   <React.StrictMode>
     <TopBar />
+    <welcomeDOM />
   </React.StrictMode>,
   document.getElementById("root")
 );
