@@ -7,7 +7,7 @@ class WelcomeDOM extends Component {
   render() {
     return (
       <Parallax className="custom-class" y={[-20, 20]} tagOuter="figure">
-        <image src={welcomeImage} />
+        <image src={welcomeImage} alt="pic" />
       </Parallax>
     );
   }
