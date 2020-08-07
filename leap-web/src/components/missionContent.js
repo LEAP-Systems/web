@@ -5,7 +5,7 @@ class MissionContent extends Component {
   state = {};
   render() {
     return (
-      <Container fluid className="max-width">
+      <Container fluid className="text-container-width">
         <section id="mission">
           <h3 class="header">Mission</h3>
           <p>

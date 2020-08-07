@@ -5,7 +5,7 @@ class AboutContent extends Component {
   state = {};
   render() {
     return (
-      <Container fluid className="max-width">
+      <Container fluid className="text-container-width">
         <section id="about">
           <h3 class="header">About</h3>
           <p>

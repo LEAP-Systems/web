@@ -9,6 +9,7 @@ import MissionContent from "./components/missionContent";
 import AccompContent from "./components/accompContent";
 import AboutContent from "./components/aboutContent";
 import TeamContent from "./components/teamContent";
+import "./css/mainpage.css";
 
 ReactDOM.render(
   <React.StrictMode>

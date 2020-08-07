@@ -5,7 +5,7 @@ class AccompContent extends Component {
   state = {};
   render() {
     return (
-      <Container fluid className="max-width">
+      <Container fluid className="text-container-width">
         <section id="acc">
           <h3 class="header">Accomplishments</h3>
           <p>

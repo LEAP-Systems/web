@@ -1,9 +1,40 @@
+/* General css styling methods for maxing container width, fluidity and etc
+*/
 .max-width {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding: 0;
 }
+
+body {
+  background-color: #121212;
+}
+
+p {
+  color: #ffffff;
+  opacity: 70%;
+}
+
+h3 {
+  color: #ffffff;
+  opacity: 100%;
+}
+
+h2 {
+  color: #ffffff;
+  opacity: 100%;
+}
+
+.text-container-width {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+/* Intro container
+*/
 
 .para-img {
   width: 100%;
@@ -13,3 +44,29 @@
   padding: 0;
   margin: 0;
 }
+
+/*Navbar
+*/
+.nav-colour-bg {
+  background-color: #212121;
+}
+
+.nav-colour-text {
+  color: #ffffff !important;
+  opacity: 100% !important;
+}
+
+/*Mission Container
+*/
+
+/* Accomplishment Container 
+*/
+
+/* About Container 
+*/
+
+/* Team Container
+*/
+
+/* Footer
+*/
