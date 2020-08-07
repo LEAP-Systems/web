@@ -14,8 +14,11 @@ class TopBar extends Component {
   state = {};
   render() {
     return (
-      <Navbar className="nav-colour-bg" expand="lg">
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar className="nav-colour-bg" expand="lg" variant="dark">
+        <Navbar.Toggle
+          className="nav-toggle-colour"
+          aria-controls="basic-navbar-nav"
+        />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="m-auto">
             <Nav.Link className="nav-colour-text" href="#home">

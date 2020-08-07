@@ -1,6 +1,10 @@
 For UI colours, will be utilizing a dark theme.
 White: #FFFFFF
 Background black: #121212
+Higher Elevation: #2E2E2E
+Highest Elevation black colour: #5C5C5C
+
+
 Primary for diagrams and buttons: #BB86FC
 Possible primary variant #3700B3
 
@@ -8,3 +12,5 @@ Possible primary variant #3700B3
 Headings uses white and opacity: 100%
 
 Text uses white and opacity: 70%
+
+
