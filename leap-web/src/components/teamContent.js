@@ -45,8 +45,7 @@ class TeamContent extends Component {
                 </Card.Title>
                 <Card.Text className="card-text">
                   I am the secondary developer and the front end designer for
-                  the LEAP project. I helped implement and test the software, as
-                  well as created this website.{" "}
+                  the LEAP project. I helped implement and test the software.{" "}
                 </Card.Text>
               </Card>
             </Col>
@@ -57,7 +56,7 @@ class TeamContent extends Component {
               <Card.Img variant="top" src={bZimg}></Card.Img>
               <Card.Title className="card-header">Brandon Zhu, EE</Card.Title>
               <Card.Text className="card-text">
-                Newly acquired member working in development.{" "}
+                Newly acquired member working in purely software development.{" "}
               </Card.Text>
             </Card>
           </Col>

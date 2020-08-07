@@ -22,10 +22,10 @@ class TopBar extends Component {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="m-auto">
             <Nav.Link className="nav-colour-text" href="#home">
-              Home
+              HOME
             </Nav.Link>
             <Nav.Link className="nav-colour-text" href="#link">
-              Blog
+              BLOG
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
