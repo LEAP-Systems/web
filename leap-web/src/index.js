@@ -10,6 +10,7 @@ import AccompContent from "./components/accompContent";
 import AboutContent from "./components/aboutContent";
 import TeamContent from "./components/teamContent";
 import "./css/mainpage.css";
+import "animate.css/animate.min.css";
 
 ReactDOM.render(
   <React.StrictMode>
