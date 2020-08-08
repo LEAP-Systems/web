@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Container } from "react-bootstrap";
-import ScrollAnimation from "react-animate-on-scroll";
 
 class MissionContent extends Component {
   state = {};
