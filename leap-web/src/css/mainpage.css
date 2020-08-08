@@ -38,6 +38,10 @@ h2 {
   background-color: #202020;
 }
 
+.roundcorners {
+  border-radius: 10%;
+}
+
 /* Intro container
 */
 
