@@ -141,9 +141,10 @@ h2 {
 .nav-colour-text {
   color: #ffffff !important;
   opacity: 100% !important;
-  font-size: 150%;
+  font-size: 200%;
   font-family: "Karla";
-  font-style: "Italic";
+  font-style: "normal";
+  font-weight: 400;
 }
 
 .nav-colour-text:hover {
@@ -152,6 +153,23 @@ h2 {
 
 .nav-toggle-colour {
   border-color: #bb86fc !important;
+}
+
+.title-pic {
+  z-index: 3;
+  color: #ffffff;
+  opacity: 100%;
+  font-family: "Karla";
+  position: relative;
+  text-align: center;
+}
+
+.center-title {
+  position: absolute;
+}
+
+.title-w-size {
+  font-size: 500%;
 }
 
 /*Mission Container

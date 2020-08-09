@@ -11,6 +11,8 @@ class ParallaxWelcomeImage extends Component {
       <div className="d-flex justify-content-center">
         <Container fluid className="max-width">
           <Image className="para-img" src={welcomeImage} />
+          <h1 className="title-pic">Hello,</h1>
+          <h1 className="title-w-size title-pic">-Welcome to LEAP-</h1>
         </Container>
       </div>
     );
