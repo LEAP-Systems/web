@@ -14,16 +14,19 @@ body {
 p {
   color: #ffffff;
   opacity: 70%;
+  font-family: "Karla";
 }
 
 h3 {
   color: #ffffff;
   opacity: 100%;
+  font-family: "Karla";
 }
 
 h2 {
   color: #ffffff;
   opacity: 100%;
+  font-family: "Karla";
 }
 
 .text-container-width {
@@ -42,6 +45,24 @@ h2 {
   border-radius: 10%;
 }
 
+/* karla-regular - latin */
+@font-face {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/karla-v13-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local("Karla"), local("Karla-Regular"),
+    url("../fonts/karla-v13-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/karla-v13-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/karla-v13-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/karla-v13-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/karla-v13-latin-regular.svg#Karla")
+      format("svg"); /* Legacy iOS */
+}
+
 /* Intro container
 */
 
@@ -55,6 +76,9 @@ h2 {
   margin: 10%;
   margin-left: auto;
   margin-right: auto;
+  transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  animation-timing-function: ease-in-out;
+  transition: 2s steps(16);
 }
 
 /*Navbar
