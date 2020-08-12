@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Container } from "react-bootstrap";
 
 class AccompContent extends Component {
-  state = {};
+  
   render() {
     return (
       <div className="d-flex justify-content-center">

@@ -117,20 +117,39 @@ h2 {
 /* Intro container
 */
 
+.main-pg-container{
+  position: relative;
+}
+
 .para-img {
   height: auto;
   width: auto;
   max-width: 100%;
   max-height: 100%;
-  display: block;
-  background-repeat: no-repeat;
-  margin: 10%;
+  padding:0;
+  margin:0;
+  position: relative;
   margin-left: auto;
   margin-right: auto;
-  transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
-  animation-timing-function: ease-in-out;
-  transition: 2s steps(16);
+  display:block
+  
 }
+
+.bg-black{
+  background-color: black;
+}
+
+.logo-main{
+  padding:0;
+  margin:0;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
 
 /*Navbar
 */
@@ -139,6 +158,7 @@ h2 {
 }
 
 .nav-colour-text {
+  display:flex;
   color: #ffffff !important;
   opacity: 100% !important;
   font-size: 200%;
@@ -155,13 +175,31 @@ h2 {
   border-color: #bb86fc !important;
 }
 
-.title-pic {
+.title-pos{
+  position: absolute;
+  left: 0; 
+  right: 0; 
+  top:70vh;
+  margin-left: auto; 
+  margin-right: auto; 
+  display:block;
+}
+
+.title-main {
   z-index: 3;
   color: #ffffff;
-  opacity: 100%;
+  opacity: 0;
   font-family: "Karla";
-  position: relative;
   text-align: center;
+  
+}
+
+.canvas-pos{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .center-title {

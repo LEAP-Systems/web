@@ -8,7 +8,7 @@ import {
   Row,
   Col,
 } from "react-bootstrap";
-import logo from "../images/LEAP_BANNER_INV.png";
+
 
 class TopBar extends Component {
   state = {};
