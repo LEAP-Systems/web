@@ -12,6 +12,7 @@ import TeamContent from "./components/teamContent";
 import "./css/mainpage.css";
 import { genConnectedDots } from "./components/connect-dots-bg.js";
 import "react-slideshow-image/dist/styles.css";
+import "react-multi-carousel/lib/styles.css";
 
 ReactDOM.render(
   <React.StrictMode>
