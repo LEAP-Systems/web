@@ -9,6 +9,7 @@ import MissionContent from "./components/missionContent";
 import AccompContent from "./components/accompContent";
 import AboutContent from "./components/aboutContent";
 import TeamContent from "./components/teamContent";
+import FooterMenu from "./components/footerMenu";
 import "./css/mainpage.css";
 import { genConnectedDots } from "./components/connect-dots-bg.js";
 import "react-slideshow-image/dist/styles.css";
@@ -22,6 +23,7 @@ ReactDOM.render(
     <AccompContent />
     <AboutContent />
     <TeamContent />
+    <FooterMenu />
   </React.StrictMode>,
   document.getElementById("root")
 );
