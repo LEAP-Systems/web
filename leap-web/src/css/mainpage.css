@@ -117,7 +117,7 @@ h2 {
 /* Intro container
 */
 
-.main-pg-container{
+.main-pg-container {
   position: relative;
 }
 
@@ -126,22 +126,21 @@ h2 {
   width: auto;
   max-width: 100%;
   max-height: 100%;
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  display:block
-  
+  display: block;
 }
 
-.bg-black{
+.bg-black {
   background-color: black;
 }
 
-.logo-main{
-  padding:0;
-  margin:0;
+.logo-main {
+  padding: 0;
+  margin: 0;
   position: relative;
   height: 100vh;
   width: 100%;
@@ -150,7 +149,6 @@ h2 {
   display: block;
 }
 
-
 /*Navbar
 */
 .nav-colour-bg {
@@ -158,7 +156,7 @@ h2 {
 }
 
 .nav-colour-text {
-  display:flex;
+  display: flex;
   color: #ffffff !important;
   opacity: 100% !important;
   font-size: 200%;
@@ -175,14 +173,14 @@ h2 {
   border-color: #bb86fc !important;
 }
 
-.title-pos{
+.title-pos {
   position: absolute;
-  left: 0; 
-  right: 0; 
-  top:70vh;
-  margin-left: auto; 
-  margin-right: auto; 
-  display:block;
+  left: 0;
+  right: 0;
+  top: 70vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .title-main {
@@ -191,15 +189,12 @@ h2 {
   opacity: 0;
   font-family: "Karla";
   text-align: center;
-  
 }
 
-.canvas-pos{
+.canvas-pos {
   position: absolute;
   height: 100%;
   width: 100%;
-  max-width: 100%;
-  max-height: 100%;
 }
 
 .center-title {
@@ -212,10 +207,9 @@ h2 {
 
 /*Mission Container
 */
-.mission-pos{
+.mission-pos {
   position: relative;
 }
-
 
 /* Accomplishment Container 
 */
@@ -224,14 +218,26 @@ h2 {
   background-color: #5d437e;
 }
 
+.accomp-pos {
+  position: relative;
+}
+
 /* About Container 
 */
 .about-bg {
   background-color: #956bc9;
 }
 
+.about-pos {
+  position: relative;
+}
+
 /* Team Container
 */
+
+.team-pos {
+  position: relative;
+}
 
 .card-bg {
   background-color: #2a2a2a;

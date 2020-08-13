@@ -1,14 +1,18 @@
 import React, { Component } from "react";
 import { Container } from "react-bootstrap";
+import { genConnectedDots } from "./connect-dots-bg.js";
 
 class AboutContent extends Component {
-  state = {};
+  componentDidMount() {
+    genConnectedDots("UInetwork3");
+  }
   render() {
     return (
       <div className="d-flex justify-content-center">
+        <canvas id="UInetwork3" className="canvas-pos"></canvas>
         <Container
           fluid
-          className="text-container-width text-container-colour roundcorners"
+          className="text-container-width text-container-colour roundcorners about-pos"
         >
           <section id="about">
             <h3 class="header">About</h3>

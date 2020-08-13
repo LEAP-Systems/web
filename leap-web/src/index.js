@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
@@ -10,6 +10,7 @@ import AccompContent from "./components/accompContent";
 import AboutContent from "./components/aboutContent";
 import TeamContent from "./components/teamContent";
 import "./css/mainpage.css";
+import { genConnectedDots } from "./components/connect-dots-bg.js";
 
 ReactDOM.render(
   <React.StrictMode>

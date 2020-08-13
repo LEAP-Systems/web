@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 import { Container, ButtonGroup } from "react-bootstrap";
-import {genConnectedDots} from "./connect-dots-bg.js";
+import { genConnectedDots } from "./connect-dots-bg.js";
 
 class MissionContent extends Component {
-  componentDidMount(){
-    genConnectedDots("UI2Network");
+  componentDidMount() {
+    genConnectedDots("UInetwork1");
   }
-  
+
   render() {
     return (
       <div className="d-flex justify-content-center">
-        <canvas id="UI2network" className="canvas-pos"></canvas>
+        <canvas id="UInetwork1" className="canvas-pos"></canvas>
         <Container
           fluid
           className="text-container-width text-container-colour roundcorners mission-pos"
@@ -66,8 +66,6 @@ class MissionContent extends Component {
             </p>
           </section>
         </Container>
-        
-        
       </div>
     );
   }

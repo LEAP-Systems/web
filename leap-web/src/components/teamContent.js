@@ -4,15 +4,19 @@ import cSimg from "../images/christian.JPG";
 import aHimg from "../images/aaron.JPG";
 import sCimg from "../images/steve.JPG";
 import bZimg from "../images/bz.png";
+import { genConnectedDots } from "./connect-dots-bg.js";
 
 class TeamContent extends Component {
-  state = {};
+  componentDidMount() {
+    genConnectedDots("UInetwork4");
+  }
   render() {
     return (
       <div className="d-flex justify-content-center">
+        <canvas id="UInetwork4" className="canvas-pos"></canvas>
         <Container
           fluid
-          className="text-container-width text-container-colour roundcorners"
+          className="text-container-width text-container-colour roundcorners team-pos"
         >
           <section id="team">
             <h2 class="header">Our Team</h2>
