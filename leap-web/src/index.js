@@ -11,6 +11,7 @@ import AboutContent from "./components/aboutContent";
 import TeamContent from "./components/teamContent";
 import "./css/mainpage.css";
 import { genConnectedDots } from "./components/connect-dots-bg.js";
+import "react-slideshow-image/dist/styles.css";
 
 ReactDOM.render(
   <React.StrictMode>
