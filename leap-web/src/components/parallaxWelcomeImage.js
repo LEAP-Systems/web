@@ -3,19 +3,19 @@ import { Parallax, ParallaxProvider } from "react-scroll-parallax";
 import welcomeImage from "../images/leap_opti2.gif";
 import Image from "react-bootstrap/Image";
 import { Container } from "react-bootstrap";
-import anime from 'animejs/lib/anime.es.js';
+import anime from "animejs/lib/anime.es.js";
 import circlesvg from "../images/purple_circle.svg";
 import logo from "../images/LEAP_BANNER_INV_LG.png";
 
 class ParallaxWelcomeImage extends Component {
-  componentDidMount(){
+  componentDidMount() {
     anime({
-      targets: '.title-main',
+      targets: ".title-main",
       duration: 5000,
-      opacity:1,
-      easing: 'cubicBezier(.5, .05, .1, .3)'
+      opacity: 1,
+      easing: "cubicBezier(.5, .05, .1, .3)",
     });
-    
+
     /*
 
     var canvas = document.getElementById("UInetwork"),
@@ -125,23 +125,19 @@ class ParallaxWelcomeImage extends Component {
   }
   render() {
     return (
-      <div className="d-flex justify-content-center">
+      <div id="home" className="d-flex justify-content-center">
         <Container fluid className="max-width main-pg-container">
           {/*<canvas id="UInetwork" className="canvas-pos">
           </canvas>*/}
           <Image className="logo-main" src={logo} />
           <div className="bg-black">
-          <Image className="para-img" src={welcomeImage} />
+            <Image className="para-img" src={welcomeImage} />
           </div>
 
           <div className="title-pos">
             <h1 className="title-main">Hello,</h1>
             <h1 className="title-w-size title-main">-Welcome to LEAP-</h1>
           </div>
-          
-
-          
-          
         </Container>
       </div>
     );
