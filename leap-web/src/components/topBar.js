@@ -9,12 +9,11 @@ import {
   Col,
 } from "react-bootstrap";
 
-
 class TopBar extends Component {
   state = {};
   render() {
     return (
-      <Navbar className="nav-colour-bg" expand="lg" variant="dark">
+      <Navbar fixed="top" className="nav-colour-bg" expand="lg" variant="dark">
         <Navbar.Toggle
           className="nav-toggle-colour"
           aria-controls="basic-navbar-nav"
@@ -24,8 +23,17 @@ class TopBar extends Component {
             <Nav.Link className="nav-colour-text" href="#home">
               HOME
             </Nav.Link>
-            <Nav.Link className="nav-colour-text" href="#link">
-              BLOG
+            <Nav.Link className="nav-colour-text" href="#mission">
+              MISSION
+            </Nav.Link>
+            <Nav.Link className="nav-colour-text" href="#accomplishments">
+              ACCOMPLISHMENTS
+            </Nav.Link>
+            <Nav.Link className="nav-colour-text" href="#about">
+              ABOUT US
+            </Nav.Link>
+            <Nav.Link className="nav-colour-text" href="#team">
+              OUR TEAM
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

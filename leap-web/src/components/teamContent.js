@@ -35,7 +35,7 @@ class TeamContent extends Component {
 
   render() {
     return (
-      <div className="d-flex justify-content-center">
+      <div id="team" className="d-flex justify-content-center">
         <canvas id="UInetwork4" className="canvas-pos"></canvas>
         <Container
           fluid

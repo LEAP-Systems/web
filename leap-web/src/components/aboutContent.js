@@ -8,7 +8,7 @@ class AboutContent extends Component {
   }
   render() {
     return (
-      <div className="d-flex justify-content-center">
+      <div id="about" className="d-flex justify-content-center">
         <canvas id="UInetwork3" className="canvas-pos"></canvas>
         <Container
           fluid

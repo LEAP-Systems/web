@@ -9,7 +9,7 @@ class AccompContent extends Component {
 
   render() {
     return (
-      <div className="d-flex justify-content-center">
+      <div id="accomplishments" className="d-flex justify-content-center">
         <canvas id="UInetwork2" className="canvas-pos"></canvas>
         <Container
           fluid

@@ -9,7 +9,7 @@ class MissionContent extends Component {
 
   render() {
     return (
-      <div className="d-flex justify-content-center">
+      <div id="mission" className="d-flex justify-content-center">
         <canvas id="UInetwork1" className="canvas-pos"></canvas>
         <Container
           fluid
