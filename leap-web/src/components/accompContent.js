@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import { Container } from "react-bootstrap";
+import { Container, Media } from "react-bootstrap";
 import { genConnectedDots } from "./connect-dots-bg.js";
+import CULogo from "../images/CULogo.png";
 
 class AccompContent extends Component {
   componentDidMount() {
@@ -40,6 +41,21 @@ class AccompContent extends Component {
               then used to recreate the file.{" "}
             </p>
           </section>
+          <Media>
+            <img
+              width={64}
+              height={64}
+              className="mr-3"
+              src={CULogo}
+              alt="Generic placeholder"
+            />
+            <Media.Body>
+              <h5>W.E Cowie Innovation Award</h5>
+              <p>
+                Systems Capstone Project Won the W.E Cowie Innovation Award 2020
+              </p>
+            </Media.Body>
+          </Media>
         </Container>
       </div>
     );
