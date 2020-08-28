@@ -17,25 +17,19 @@ class AboutContent extends Component {
           <section id="about">
             <h3 class="header">About</h3>
             <p>
-              Light Emitting Access Point (LEAP) technology aims to
-              revolutionize transmission security by fusing LiFi and P2MP
-              communication by requiring subscribed receivers to be precisely
-              positioned relative to an LED cube to interpret transmission data.
-              LEAP technology includes network protocols, addressing, and
-              real-time embedded hardware which will work concurrently to
-              provide secure, fixed, multiple-access downlink with the potential
-              to greatly increase traditional LiFi bandwidth capabilities. In
-              the future, LEAP technology will be a platform for secure LiFi
-              broadband integration which will make it one of the most advanced
-              communication methods in modern networking.
+              LEAP provides a platform for a new wave of secure transmission technologies that 
+              operate securely independent of encryption algorithms. LEAP uses a rigorous design 
+              philosophy with a custom data transfer protocol framework emphasizing data security. 
+              The LEAP transmitter uses light to transmit data to a single or multiple cameras or 
+              photo receiving devices over short-ranges within line-of-sight. It exploits two and 
+              three-dimensional matrices enabling simultaneous communication to multiple users by 
+              computing the relative position of each receiving device. 
             </p>
             <p>
-              For the scope of this project, the goal is to simulate LEAP
-              technology for applications in secure building-to-building or
-              indoor government/business networking operations. By the end of
-              the project term the project aims to demonstrate that the
-              system/network architecture can be applied to broadband systems
-              graded to operate close to maximum theoretical bit rates.
+              This is accomplished using a specialized encoding and decoding algorithm by applying 
+              concepts in Euclidean space and infinite mathematics. Finally, added cell multiplicity
+              results in a proportional increase in the theoretical bandwidth capabilities, 
+              distinguishing it from conventional single-cell light communication technologies.
             </p>
           </section>
         </Container>

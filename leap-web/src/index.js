@@ -20,8 +20,8 @@ ReactDOM.render(
     <TopBar />
     <ParallaxWelcomeImage />
     <MissionContent />
-    <AccompContent />
     <AboutContent />
+    <AccompContent />
     <TeamContent />
     <FooterMenu />
   </React.StrictMode>,

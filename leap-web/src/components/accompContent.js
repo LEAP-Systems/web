@@ -19,26 +19,19 @@ class AccompContent extends Component {
           <section id="acc">
             <h3 class="header">Accomplishments</h3>
             <p>
-              We were able to successfully achieve a parallel light driven data
-              transmission using a 4x4x4 LED cube and a webcam. On start, the
-              LED cube would start transmitting random arrays of data. A
-              receiver would then be able to read those random points until a
-              neural network can be constructed using those random points. The
-              receiver would send a frame data to the transmitter via wifi link
-              to allow the transmitter acknowledge there is a receiver
-              listening. Based on the frame data sent, the transmitter is able
-              to detect where the transmitter is receiving. The cache built in
-              for each side of the cube's transmission holds the recent data
-              transmitted. If the receiver's frame data matches one of the
-              values found in either of the caches, the receiver can be
-              validated and the direction is known. Once the connection is set,
-              we are able to select files to transmit to the receiver. The user
-              would select the desired files and the files would then be
-              converted into byte arrays and then hardware mapped to the cube.
-              The receiver would read in these values from the cube. The neural
-              structure in the receiver algorithm (IRIS) maps the LEDs and
-              prints out a bytearray using the spatial-codec. The byte array is
-              then used to recreate the file.{" "}
+            The Cowie Innovation Award is given on the recommendation of the Dean of the Faculty of 
+            Engineering and Design, to one student or one team of students in the final year of a 
+            Bachelor of Engineering degree for demonstrating top quality innovation in Engineering. 
+            It was established in 2006 by Alexandra Cowie in memory of her late husband, Wilbur 
+            Elliott Cowie, BASc, MASc (Toronto), PEng.
+            </p>
+            <p>
+            Carleton University SCE Department Video Competition, First Place April 2020<br></br>
+            Issuer: Systems and Computer Engineering Department, Carleton University
+            <br></br>
+            Promotional video for the Light Emitting Access Point (LEAP) Project 
+            https://www.youtube.com/watch?v=aiTprGXODSQ. Awarded $1000 and eventual feature on the 
+            SCE departments' recruitment web-page.
             </p>
           </section>
           <Media>
