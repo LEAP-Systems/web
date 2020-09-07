@@ -267,7 +267,7 @@ h2 {
   left: 0;
   bottom: 0;
   width: 100%;
-  border-top: 5px solid black;
+  background-color: #212121;
   text-align: center;
 }
 
@@ -277,5 +277,5 @@ h2 {
   font-size: 100%;
   font-family: "Karla";
   font-style: "normal";
-  font-weight: 400;
+  font-weight: 700;
 }
