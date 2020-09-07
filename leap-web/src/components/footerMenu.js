@@ -4,7 +4,7 @@ class FooterMenu extends Component {
   render() {
     return (
       <section id="footer">
-        <footer className="footer con foot-style bg-dark">
+        <footer className="footer">
           <p className="footer-text">&copy; Leap Systems</p>
         </footer>
       </section>
