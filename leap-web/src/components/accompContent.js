@@ -29,8 +29,8 @@ class AccompContent extends Component {
             Carleton University SCE Department Video Competition, First Place April 2020<br></br>
             Issuer: Systems and Computer Engineering Department, Carleton University
             <br></br>
-            Promotional video for the Light Emitting Access Point (LEAP) Project 
-            https://www.youtube.com/watch?v=aiTprGXODSQ. Awarded $1000 and eventual feature on the 
+            Promotional video for the Light Emitting Access Point (LEAP) Project. 
+            Awarded $1000 and eventual feature on the 
             SCE departments' recruitment web-page.
             </p>
           </section>
@@ -47,8 +47,12 @@ class AccompContent extends Component {
               <p>
                 Systems Capstone Project Won the W.E Cowie Innovation Award 2020
               </p>
+
             </Media.Body>
           </Media>
+          <div className="iframe-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/aiTprGXODSQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </Container>
       </div>
     );
