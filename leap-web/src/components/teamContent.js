@@ -42,7 +42,7 @@ class TeamContent extends Component {
           className="text-container-width text-container-colour roundcorners team-pos"
         >
           <section id="team">
-            <h2 class="header">Our Team</h2>
+            <h2 class="header">Contributors to LEAP</h2>
             <Carousel responsive={responsive}>
               <div>
                 <Card style={{ width: "18rem" }} className="card-bg">
@@ -89,7 +89,7 @@ class TeamContent extends Component {
                     Brandon Zhu, EE
                   </Card.Title>
                   <Card.Text className="card-text">
-                    Newly acquired developer working on computer visions.{" "}
+                    A developer working on computer visions.{" "}
                   </Card.Text>
                 </Card>
               </div>
