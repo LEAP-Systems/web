@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cc175c61.chunk.css",
+    "main.js": "/static/js/main.9339139e.chunk.js",
+    "main.js.map": "/static/js/main.9339139e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d5a7330d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d5a7330d.js.map",
+    "static/css/2.b468c0ef.chunk.css": "/static/css/2.b468c0ef.chunk.css",
+    "static/js/2.54e73e30.chunk.js": "/static/js/2.54e73e30.chunk.js",
+    "static/js/2.54e73e30.chunk.js.map": "/static/js/2.54e73e30.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.8f5ad59d22e98c3f0da8635251e0e37e.js": "/precache-manifest.8f5ad59d22e98c3f0da8635251e0e37e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.b468c0ef.chunk.css.map": "/static/css/2.b468c0ef.chunk.css.map",
+    "static/css/main.cc175c61.chunk.css.map": "/static/css/main.cc175c61.chunk.css.map",
+    "static/js/2.54e73e30.chunk.js.LICENSE.txt": "/static/js/2.54e73e30.chunk.js.LICENSE.txt",
+    "static/media/LEAP_BANNER_INV_LG.png": "/static/media/LEAP_BANNER_INV_LG.96183a56.png",
+    "static/media/aaron.JPG": "/static/media/aaron.84c7f743.JPG",
+    "static/media/bz.png": "/static/media/bz.5ae55e58.png",
+    "static/media/christian.JPG": "/static/media/christian.d26ab7be.JPG",
+    "static/media/mainpage.css": "/static/media/karla-v13-latin-regular.d85e4310.woff",
+    "static/media/leap_opti2.gif": "/static/media/leap_opti2.249e11c1.gif",
+    "static/media/purple_circle.svg": "/static/media/purple_circle.173d6740.svg",
+    "static/media/styles.css": "/static/media/revicons.2feb69cc.eot",
+    "static/media/steve.JPG": "/static/media/steve.aaa39e67.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d5a7330d.js",
+    "static/css/2.b468c0ef.chunk.css",
+    "static/js/2.54e73e30.chunk.js",
+    "static/css/main.cc175c61.chunk.css",
+    "static/js/main.9339139e.chunk.js"
+  ]
+}
