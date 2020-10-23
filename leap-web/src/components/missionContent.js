@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, ButtonGroup } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { genConnectedDots } from "./connect-dots-bg.js";
 
 class MissionContent extends Component {

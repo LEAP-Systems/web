@@ -1,10 +1,8 @@
 import React, { Component } from "react";
-import { Parallax, ParallaxProvider } from "react-scroll-parallax";
 import welcomeImage from "../images/leap_opti2.gif";
 import Image from "react-bootstrap/Image";
 import { Container } from "react-bootstrap";
 import anime from "animejs/lib/anime.es.js";
-import circlesvg from "../images/purple_circle.svg";
 import logo from "../images/LEAP_BANNER_INV_LG.png";
 
 class ParallaxWelcomeImage extends Component {

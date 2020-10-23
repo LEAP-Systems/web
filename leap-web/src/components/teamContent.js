@@ -1,11 +1,10 @@
 import React, { Component } from "react";
-import { Container, Card, Row, Col } from "react-bootstrap";
+import { Container, Card} from "react-bootstrap";
 import cSimg from "../images/christian.JPG";
 import aHimg from "../images/aaron.JPG";
 import sCimg from "../images/steve.JPG";
 import bZimg from "../images/bz.png";
 import { genConnectedDots } from "./connect-dots-bg.js";
-import { Fade } from "react-slideshow-image";
 import Carousel from "react-multi-carousel";
 
 const responsive = {
