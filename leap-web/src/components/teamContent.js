@@ -41,7 +41,7 @@ class TeamContent extends Component {
           className="text-container-width text-container-colour roundcorners team-pos"
         >
           <section id="team">
-            <h2 class="header">Contributors to LEAP</h2>
+            <h2 className="header">Contributors to LEAP</h2>
             <Carousel responsive={responsive}>
               <div>
                 <Card style={{ width: "18rem" }} className="card-bg">

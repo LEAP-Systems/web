@@ -17,7 +17,7 @@ class AccompContent extends Component {
           className="text-container-width text-container-colour roundcorners accomp-pos"
         >
           <section id="acc">
-            <h3 class="header">Accomplishments</h3>
+            <h3 className="header">Accomplishments</h3>
             <p>
             The Cowie Innovation Award is given on the recommendation of the Dean of the Faculty of 
             Engineering and Design, to one student or one team of students in the final year of a 
@@ -51,7 +51,7 @@ class AccompContent extends Component {
             </Media.Body>
           </Media>
           <div className="iframe-container">
-          <iframe title="leap" width="560" height="315" src="https://www.youtube.com/embed/aiTprGXODSQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe title="leap" width="560" height="315" src="https://www.youtube.com/embed/aiTprGXODSQ" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>
         </Container>
       </div>

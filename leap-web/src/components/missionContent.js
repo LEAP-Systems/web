@@ -16,7 +16,7 @@ class MissionContent extends Component {
           className="text-container-width text-container-colour roundcorners mission-pos"
         >
           <section id="mission">
-            <h3 class="header">Mission</h3>
+            <h3 className="header">Mission</h3>
             <p>
               The Light Emitting Access Point (LEAP) Project is a proof-of-concept for a one-way, 
               encryption independent, wireless communication system. Modern network infrastructure
