@@ -14,6 +14,7 @@ import "./css/mainpage.css";
 import { genConnectedDots } from "./components/connect-dots-bg.js";
 import "react-slideshow-image/dist/styles.css";
 import "react-multi-carousel/lib/styles.css";
+import RecruitContent from "./components/recruitContent";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -23,6 +24,7 @@ ReactDOM.render(
     <AboutContent />
     <AccompContent />
     <TeamContent />
+    <RecruitContent/>
     <FooterMenu />
   </React.StrictMode>,
   document.getElementById("root")
