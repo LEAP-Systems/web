@@ -133,8 +133,7 @@ class ParallaxWelcomeImage extends Component {
           </div>
 
           <div className="title-pos">
-            <h1 className="title-main">Hello,</h1>
-            <h1 className="title-w-size title-main">-Welcome to LEAP-</h1>
+            <h1 className="title-w-size title-main">Light Emitting Access Project</h1>
           </div>
         </Container>
       </div>

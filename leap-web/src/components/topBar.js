@@ -28,7 +28,7 @@ class TopBar extends Component {
               ABOUT US
             </Nav.Link>
             <Nav.Link className="nav-colour-text" href="#team">
-              OUR TEAM
+              CONTRIBUTORS
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
