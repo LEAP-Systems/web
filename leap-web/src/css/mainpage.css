@@ -257,11 +257,12 @@ h2 {
 }
 
 .card-bg {
-  background-color: #2a2a2a;
+  background-color: #202020;
 }
 .card-header {
   color: #ffffff;
   opacity: 1.0;
+  font-family: "Karla";
 }
 
 .card-text {
