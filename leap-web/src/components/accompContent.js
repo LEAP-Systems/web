@@ -20,38 +20,39 @@ class AccompContent extends Component {
             <h3 className="header">Accomplishments</h3>
             <br></br>
             <br></br>
-            <p>
-            The Cowie Innovation Award is given on the recommendation of the Dean of the Faculty of 
-            Engineering and Design, to one student or one team of students in the final year of a 
-            Bachelor of Engineering degree for demonstrating top quality innovation in Engineering. 
-            It was established in 2006 by Alexandra Cowie in memory of her late husband, Wilbur 
-            Elliott Cowie, BASc, MASc (Toronto), PEng.
-            </p>
-            <p>
-            Carleton University SCE Department Video Competition, First Place April 2020<br></br>
-            Issuer: Systems and Computer Engineering Department, Carleton University
-            <br></br>
-            Promotional video for the Light Emitting Access Point (LEAP) Project. 
-            Awarded $1000 and eventual feature on the 
-            SCE departments' recruitment web-page.
-            </p>
-          </section>
-          <Media>
-            <img
-              width={64}
-              height={64}
-              className="mr-3"
-              src={CULogo}
-              alt="Generic placeholder"
-            />
-            <Media.Body>
-              <h5>W.E Cowie Innovation Award</h5>
+            <h2 className="header">Recipient of the Cowie Innovation Award 2020</h2>
               <p>
-                Systems Capstone Project Won the W.E Cowie Innovation Award 2020
+                The fourth year capstone project Light Emitting Access Point (LEAP) has won the 2020 W.E. Cowie Innovation Award, valued at $27,000.
               </p>
-
-            </Media.Body>
-          </Media>
+              <p>
+                The Cowie Innovation Award is given on the recommendation of the Dean of the Faculty of 
+                Engineering and Design, to one student or one team of students in the final year of a 
+                Bachelor of Engineering degree for demonstrating top quality innovation in Engineering. 
+                It was established in 2006 by Alexandra Cowie in memory of her late husband, Wilbur 
+                Elliott Cowie, BASc, MASc (Toronto), PEng.
+              </p>
+              <Media>
+              <img
+                width={64}
+                height={64}
+                className="mr-3"
+                src={CULogo}
+                alt="Generic placeholder"
+              />
+              <Media.Body>
+                <h5>W.E Cowie Innovation Award</h5>
+                <p>
+                  Systems Capstone Project Won the W.E Cowie Innovation Award 2020
+                </p>
+              </Media.Body>
+            </Media>
+            <br></br>
+            <br></br>
+            <h2 className="header">Winner of Carleton University SCE Video Competition 2020</h2>
+              <p>
+                Promotional video for the Light Emitting Access Point (LEAP) Project. Awarded $1000 and featured on the SCE departments' recruitment web-page.
+              </p>
+          </section>
           <div className="iframe-container">
           <iframe title="leap" width="560" height="315" src="https://www.youtube.com/embed/aiTprGXODSQ" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>
