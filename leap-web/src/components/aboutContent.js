@@ -16,6 +16,8 @@ class AboutContent extends Component {
         >
           <section id="about">
             <h3 className="header">About</h3>
+            <br></br>
+            <br></br>
             <p>
               LEAP provides a platform for a new wave of secure transmission technologies that 
               operate securely independent of encryption algorithms. LEAP uses a rigorous design 

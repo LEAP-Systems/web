@@ -18,6 +18,8 @@ class AccompContent extends Component {
         >
           <section id="acc">
             <h3 className="header">Accomplishments</h3>
+            <br></br>
+            <br></br>
             <p>
             The Cowie Innovation Award is given on the recommendation of the Dean of the Faculty of 
             Engineering and Design, to one student or one team of students in the final year of a 

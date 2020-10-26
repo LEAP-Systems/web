@@ -41,7 +41,9 @@ class TeamContent extends Component {
           className="text-container-width text-container-colour roundcorners team-pos"
         >
           <section id="team">
-            <h2 className="header">Project Contributors</h2>
+            <h3 className="header">Project Contributors</h3>
+            <br></br>
+            <br></br>
             <Carousel responsive={responsive}>
               <div>
                 <Card style={{ width: "18rem" }} className="card-bg">
