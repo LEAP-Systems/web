@@ -49,10 +49,10 @@ class TeamContent extends Component {
                 <Card style={{ width: "18rem" }} className="card-bg">
                   <Card.Img variant="top" src={cSimg}></Card.Img>
                   <Card.Title className="card-header">
-                    Christian Sargusingh, CSE
+                    Christian Sargusingh<br></br> B.Eng Computer Systems
                   </Card.Title>
                   <Card.Text className="card-text">
-                    Lead systems engineer and team coordinator responsible for system hardware, firmware and embedded IoT components.{" "}
+                    Lead systems engineer and team coordinator developing system hardware, firmware and embedded IoT components.{" "}
                   </Card.Text>
                 </Card>
               </div>
@@ -60,7 +60,7 @@ class TeamContent extends Component {
                 <Card style={{ width: "18rem" }} className="card-bg">
                   <Card.Img variant="top" src={sCimg}></Card.Img>
                   <Card.Title className="card-header">
-                    Steven Zhou, CSE
+                    Steven Zhou<br></br> B.Eng Computer Systems
                   </Card.Title>
                   <Card.Text className="card-text">
                     Systems, software and QA engineer responsible for and implementing and quality control of system components.{" "}
@@ -71,7 +71,7 @@ class TeamContent extends Component {
                 <Card style={{ width: "18rem" }} className="card-bg">
                   <Card.Img variant="top" src={bZimg}></Card.Img>
                   <Card.Title className="card-header">
-                    Brandon Zhu, EE
+                    Brandon Zhu<br></br> B.Eng Electrical
                   </Card.Title>
                   <Card.Text className="card-text">
                     Webfront and systems developer heading the Computer Vision project for efficient 3D spatial decoding.{" "}
@@ -82,7 +82,7 @@ class TeamContent extends Component {
                 <Card style={{ width: "18rem" }} className="card-bg">
                   <Card.Img variant="top" src={aHimg}></Card.Img>
                   <Card.Title className="card-header">
-                    Aaron Huang, EE
+                    Aaron Huang<br></br> B.Eng Electrical
                   </Card.Title>
                   <Card.Text className="card-text">
                     Hardware engineer and designer of the original 64-bit LEAP transmitter prototype.{" "}
