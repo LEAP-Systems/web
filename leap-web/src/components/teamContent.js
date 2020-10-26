@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Container, Card} from "react-bootstrap";
-import cSimg from "../images/christian.JPG";
-import aHimg from "../images/aaron.JPG";
-import sCimg from "../images/steve.JPG";
-import bZimg from "../images/bz.png";
+import cSimg from "../images/christian.png";
+import aHimg from "../images/aaron.png";
+import sCimg from "../images/steven.png";
+import bZimg from "../images/brandon.png";
 import { genConnectedDots } from "./connect-dots-bg.js";
 import Carousel from "react-multi-carousel";
 
@@ -41,7 +41,7 @@ class TeamContent extends Component {
           className="text-container-width text-container-colour roundcorners team-pos"
         >
           <section id="team">
-            <h2 className="header">Contributors to LEAP</h2>
+            <h2 className="header">Project Contributors</h2>
             <Carousel responsive={responsive}>
               <div>
                 <Card style={{ width: "18rem" }} className="card-bg">
@@ -50,22 +50,7 @@ class TeamContent extends Component {
                     Christian Sargusingh, CSE
                   </Card.Title>
                   <Card.Text className="card-text">
-                    I am the lead software developer as well as the team leader
-                    for the LEAP project. I designed and implemented the
-                    majority the LEAP and IRIS softwares.{" "}
-                  </Card.Text>
-                </Card>
-              </div>
-              <div>
-                <Card style={{ width: "18rem" }} className="card-bg">
-                  <Card.Img variant="top" src={aHimg}></Card.Img>
-                  <Card.Title className="card-header">
-                    Aaron Huang, EE
-                  </Card.Title>
-                  <Card.Text className="card-text">
-                    I am the lead hardware designer. I was responsible for
-                    designing the physical cube. I designed the cube
-                    specifically to be used for the LEAP software.{" "}
+                    Lead systems engineer and team coordinator responsible for system hardware, firmware and embedded IoT components.{" "}
                   </Card.Text>
                 </Card>
               </div>
@@ -76,8 +61,7 @@ class TeamContent extends Component {
                     Steven Zhou, CSE
                   </Card.Title>
                   <Card.Text className="card-text">
-                    I am the secondary developer and the front end designer for
-                    the LEAP project. I helped implement and test the software.{" "}
+                    Systems, software and QA engineer responsible for and implementing and quality control of system components.{" "}
                   </Card.Text>
                 </Card>
               </div>
@@ -88,7 +72,18 @@ class TeamContent extends Component {
                     Brandon Zhu, EE
                   </Card.Title>
                   <Card.Text className="card-text">
-                    A developer working on computer visions.{" "}
+                    Webfront and systems developer heading the Computer Vision project for efficient 3D spatial decoding.{" "}
+                  </Card.Text>
+                </Card>
+              </div>
+              <div>
+                <Card style={{ width: "18rem" }} className="card-bg">
+                  <Card.Img variant="top" src={aHimg}></Card.Img>
+                  <Card.Title className="card-header">
+                    Aaron Huang, EE
+                  </Card.Title>
+                  <Card.Text className="card-text">
+                    Hardware engineer and designer of the original 64-bit LEAP transmitter prototype.{" "}
                   </Card.Text>
                 </Card>
               </div>
