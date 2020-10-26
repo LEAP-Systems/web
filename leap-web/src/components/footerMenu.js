@@ -5,7 +5,7 @@ class FooterMenu extends Component {
     return (
       <section id="footer">
         <footer className="footer">
-          <p className="footer-text">&copy; Leap Systems</p>
+          <p className="footer-text">2020 &copy; Leap Systems</p>
         </footer>
       </section>
     );
