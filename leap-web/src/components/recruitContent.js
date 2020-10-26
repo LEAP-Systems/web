@@ -15,9 +15,11 @@ class RecruitContent extends Component {
                 className="text-container-width text-container-colour roundcorners about-pos"
                 >
                 <section id="recruitment">
-                    <h3 className="header">Open-source project</h3>
+                    <h3 className="header">Seeking Contributors</h3>
+                    <br></br>
+                    <br></br>
                     <p>
-                    Interested in joining? Contact Christian at Christian@leapsystems.online
+                        We are looking to expand our team on a voluntary basis to fill R&D roles in telecommunications, machine learning, web development, embedded IoT, and high-speed digital design. If any of these topics interest you contact us via email: christian@leapsystems.online.
                     </p>
                 </section>
                 </Container>
