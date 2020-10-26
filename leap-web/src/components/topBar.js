@@ -21,14 +21,17 @@ class TopBar extends Component {
             <Nav.Link className="nav-colour-text" href="#mission">
               MISSION
             </Nav.Link>
-            <Nav.Link className="nav-colour-text" href="#accomplishments">
-              ACCOMPLISHMENTS
-            </Nav.Link>
             <Nav.Link className="nav-colour-text" href="#about">
               ABOUT US
             </Nav.Link>
             <Nav.Link className="nav-colour-text" href="#team">
               CONTRIBUTORS
+            </Nav.Link>
+            <Nav.Link className="nav-colour-text" href="#accomplishments">
+              ACCOMPLISHMENTS
+            </Nav.Link>
+            <Nav.Link className="nav-colour-text" href="#recruitment">
+              RECRUITMENT
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
