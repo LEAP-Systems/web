@@ -22,9 +22,7 @@ class AccompContent extends Component {
             <br></br>
             <h2 className="header">Recipient of the Cowie Innovation Award 2020</h2>
               <p>
-                The fourth year capstone project Light Emitting Access Point (LEAP) has won the 2020 W.E. Cowie Innovation Award, valued at $27,000.
-              </p>
-              <p>
+                The LEAP Project team won the 2020 W.E. Cowie Innovation Award, valued at $27,000.
                 The Cowie Innovation Award is given on the recommendation of the Dean of the Faculty of 
                 Engineering and Design, to one student or one team of students in the final year of a 
                 Bachelor of Engineering degree for demonstrating top quality innovation in Engineering. 
@@ -50,7 +48,8 @@ class AccompContent extends Component {
             <br></br>
             <h2 className="header">Winner of Carleton University SCE Video Competition 2020</h2>
               <p>
-                Promotional video for the Light Emitting Access Point (LEAP) Project. Awarded $1000 and featured on the SCE departments' recruitment web-page.
+              The LEAP Project team won the nomination for best promotional video by Carleton University's SCE Department. 
+              The team was awarded $1000 and featured on the SCE departments' recruitment web-page.
               </p>
           </section>
           <div className="iframe-container">

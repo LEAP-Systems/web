@@ -15,7 +15,7 @@ class AboutContent extends Component {
           className="text-container-width text-container-colour roundcorners about-pos"
         >
           <section id="about">
-            <h3 className="header">LEAP Design</h3>
+            <h3 className="header">Design Philosophy</h3>
             <br></br>
             <br></br>
             <p>
