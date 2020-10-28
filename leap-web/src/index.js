@@ -15,6 +15,7 @@ import { genConnectedDots } from "./components/connect-dots-bg.js";
 import "react-slideshow-image/dist/styles.css";
 import "react-multi-carousel/lib/styles.css";
 import RecruitContent from "./components/recruitContent";
+import WebFont from 'webfontloader';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -29,6 +30,18 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 );
+
+WebFont.load({
+  google: {
+    families: ['Josefin Sans:300,400,700', 'sans-serif']
+  }
+});
+WebFont.load({
+  google: {
+    families: ['Libre Barcode 39 Text:300,400,700', 'cursive']
+  }
+});
+  
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
