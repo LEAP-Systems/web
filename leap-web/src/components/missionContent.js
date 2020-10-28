@@ -21,7 +21,7 @@ class MissionContent extends Component {
             <br></br>
             <p>
               The Light Emitting Access Point (LEAP) Project is a proof-of-concept for a short-range, downlink, light communication system.
-              Modern network infrastructure relies on encryption to keep data secure to compensate for fundamentally insecure forms of transmission.
+              Modern network infrastructure relies on encryption to keep data secure to compensate for fundamentally insecure transmission methods.
               However, encryption algorithms increase the computational load to networking systems and will grow in complexity as our systems evolve. 
             </p>
             <p>  
