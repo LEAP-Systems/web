@@ -14,21 +14,21 @@ body {
 p {
   color: #ffffff;
   opacity: 0.70;
-  font-family: "Karla";
+  font-family: "Josefin Sans";
   font-size: 150%;
 }
 
 h3 {
   color: #ffffff;
   opacity: 1.00;
-  font-family: "Karla";
+  font-family: "Josefin Sans";
   font-size: 400%;
 }
 
 h2 {
   color: #ffffff;
   opacity: 1.0;
-  font-family: "Karla";
+  font-family: "Josefin Sans";
 }
 
 .text-container-width {
@@ -162,8 +162,8 @@ h2 {
   display: flex;
   color: #ffffff !important;
   opacity: 1.0 !important;
-  font-size: 200%;
-  font-family: "Karla";
+  font-size: 150%;
+  font-family: "Josefin Sans";
   font-style: "normal";
   font-weight: 400;
 }
@@ -190,7 +190,8 @@ h2 {
   z-index: 3;
   color: #ffffff;
   opacity: 0;
-  font-family: "Karla";
+  font-family: "Libre Barcode 39 Text";
+  font-size: 120px !important;
   text-align: center;
 }
 
@@ -262,7 +263,7 @@ h2 {
 .card-header {
   color: #ffffff;
   opacity: 1.0;
-  font-family: "Karla";
+  font-family: "Josefin Sans";
 }
 
 .card-text {
@@ -292,7 +293,7 @@ h2 {
   color: #ffffff !important;
   opacity: 1.0 !important;
   font-size: 100%;
-  font-family: "Karla";
+  font-family: "Josefin Sans";
   font-style: "normal";
   font-weight: 700;
 }
