@@ -4,13 +4,13 @@ import { genConnectedDots } from "./connect-dots-bg.js";
 
 class MissionContent extends Component {
   componentDidMount() {
-    genConnectedDots("UInetwork1");
+    genConnectedDots("UInetwork2");
   }
 
   render() {
     return (
       <div id="mission" className="d-flex justify-content-center">
-        <canvas id="UInetwork1" className="canvas-pos"></canvas>
+        <canvas id="UInetwork2" className="canvas-pos"></canvas>
         <Container
           fluid
           className="text-container-width text-container-colour roundcorners mission-pos"
