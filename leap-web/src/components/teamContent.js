@@ -46,7 +46,7 @@ class TeamContent extends Component {
             <br></br>
             <Carousel responsive={responsive}>
               <div>
-                <Card style={{ width: "18rem" }} className="card-bg">
+                <Card style={{ width: "15rem" }} className="card-bg">
                   <Card.Img variant="top" src={cSimg}></Card.Img>
                   <Card.Title className="card-header">
                     Christian Sargusingh<br></br> B.Eng Computer Systems
@@ -57,7 +57,7 @@ class TeamContent extends Component {
                 </Card>
               </div>
               <div>
-                <Card style={{ width: "18rem" }} className="card-bg">
+                <Card style={{ width: "15rem" }} className="card-bg">
                   <Card.Img variant="top" src={sCimg}></Card.Img>
                   <Card.Title className="card-header">
                     Steven Zhou<br></br> B.Eng Computer Systems
@@ -68,7 +68,7 @@ class TeamContent extends Component {
                 </Card>
               </div>
               <div>
-                <Card style={{ width: "18rem" }} className="card-bg">
+                <Card style={{ width: "15rem" }} className="card-bg">
                   <Card.Img variant="top" src={bZimg}></Card.Img>
                   <Card.Title className="card-header">
                     Brandon Zhu<br></br> B.Eng Electrical
@@ -79,7 +79,7 @@ class TeamContent extends Component {
                 </Card>
               </div>
               <div>
-                <Card style={{ width: "18rem" }} className="card-bg">
+                <Card style={{ width: "15rem" }} className="card-bg">
                   <Card.Img variant="top" src={aHimg}></Card.Img>
                   <Card.Title className="card-header">
                     Aaron Huang<br></br> B.Eng Electrical
