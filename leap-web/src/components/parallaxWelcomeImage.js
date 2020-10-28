@@ -131,9 +131,8 @@ class ParallaxWelcomeImage extends Component {
           <div className="bg-black">
             <Image className="para-img" src={welcomeImage} />
           </div>
-
           <div className="title-pos">
-            <h1 className="title-w-size title-main">Light Emitting Access Project</h1>
+            <h1 className="title-w-size title-main">LEAP Systems Online</h1>
           </div>
         </Container>
       </div>
