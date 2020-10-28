@@ -20,15 +20,13 @@ class MissionContent extends Component {
             <br></br>
             <br></br>
             <p>
-              The Light Emitting Access Point (LEAP) Project is proof-of-concept for a downlink, light communication system. 
-            </p>
-            <p>
-              Modern network infrastructure relies on encryption to keep data secure due to compensate for the insecurity of their transmission architectures.
-              Encryption algorithms are inherently inefficient and complex, increasing computational load to networking systems. 
+              The Light Emitting Access Point (LEAP) Project is a proof-of-concept for a short-range, downlink, light communication system.
+              Modern network infrastructure relies on encryption to keep data secure to compensate for fundamentally insecure forms of transmission.
+              However, encryption algorithms increase the computational load to networking systems and will grow in complexity as our systems evolve. 
             </p>
             <p>  
-              We believe conventional encryption is not a universal solution for network security. LEAP attempts to challenge modern encryption by leveraging 
-              3D space to encode and decode data for enhanced transmission security. 
+              We believe conventional encryption is not a universal solution for network security. The LEAP Project attempts to challenge modern encryption 
+              by leveraging 3D space to encode and decode data improving transmission security.
             </p>
           </section>
         </Container>
