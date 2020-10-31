@@ -22,7 +22,8 @@ class AccompContent extends Component {
             <br></br>
             <h2 className="header">Recipient of the Cowie Innovation Award 2020</h2>
               <p>
-                The fourth year capstone project Light Emitting Access Point (LEAP) has won the 2020 W.E. Cowie Innovation Award, valued at $27,000.
+                The fourth year capstone project Light Emitting Access Point (LEAP) has won the 2020
+                W.E. Cowie Innovation Award presented by Carleton University, which is valued at $27,000.
               </p>
               <p>
                 The Cowie Innovation Award is given on the recommendation of the Dean of the Faculty of 
