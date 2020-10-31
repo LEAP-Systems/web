@@ -13,21 +13,21 @@ body {
 
 p {
   color: #ffffff;
-  opacity: 0.70;
+  opacity: 0.7;
   font-family: "Josefin Sans";
   font-size: 150%;
 }
 
 h3 {
   color: #ffffff;
-  opacity: 1.00;
+  opacity: 1;
   font-family: "Josefin Sans";
   font-size: 400%;
 }
 
 h2 {
   color: #ffffff;
-  opacity: 1.0;
+  opacity: 1;
   font-family: "Josefin Sans";
 }
 
@@ -41,7 +41,7 @@ h2 {
 
 .text-container-colour {
   background-color: #202020;
-  opacity:0.8;
+  opacity: 0.8;
 }
 
 .roundcorners {
@@ -124,19 +124,6 @@ h2 {
   position: relative;
 }
 
-.para-img {
-  height: auto;
-  width: auto;
-  max-width: 100%;
-  max-height: 100%;
-  padding: 0;
-  margin: 0;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
 .bg-black {
   background-color: black;
 }
@@ -146,7 +133,7 @@ h2 {
   margin: 0;
   opacity: 0;
   position: relative;
-  height: 90vh;
+  height: auto;
   width: 100%;
   max-width: 100%;
   max-height: 100%;
@@ -162,7 +149,7 @@ h2 {
 .nav-colour-text {
   display: flex;
   color: #ffffff !important;
-  opacity: 1.0 !important;
+  opacity: 1 !important;
   font-size: 150%;
   font-family: "Josefin Sans";
   font-style: "normal";
@@ -196,6 +183,305 @@ h2 {
   text-align: center;
 }
 
+/* Extra small devices (phones, 500px to 600px) */
+@media only screen and (max-width: 500px) {
+  .title-pos {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .title-main {
+    z-index: 3;
+    color: #ffffff;
+    opacity: 0;
+    font-family: "Libre Barcode 39 Text";
+    font-size: 40px !important;
+    text-align: center;
+  }
+
+  p {
+    color: #ffffff;
+    opacity: 0.7;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+  }
+
+  h3 {
+    color: #ffffff;
+    opacity: 1;
+    font-family: "Josefin Sans";
+    font-size: 18px;
+  }
+
+  h2 {
+    color: #ffffff;
+    opacity: 1;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+  }
+}
+
+/* Extra small devices (phones, 500px to 600px) */
+@media only screen and (min-width: 500px) {
+  .title-pos {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .title-main {
+    z-index: 3;
+    color: #ffffff;
+    opacity: 0;
+    font-family: "Libre Barcode 39 Text";
+    font-size: 50px !important;
+    text-align: center;
+  }
+
+  p {
+    color: #ffffff;
+    opacity: 0.7;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+  }
+
+  h3 {
+    color: #ffffff;
+    opacity: 1;
+    font-family: "Josefin Sans";
+    font-size: 18px;
+  }
+
+  h2 {
+    color: #ffffff;
+    opacity: 1;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .title-pos {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .title-main {
+    z-index: 3;
+    color: #ffffff;
+    opacity: 0;
+    font-family: "Libre Barcode 39 Text";
+    font-size: 55px !important;
+    text-align: center;
+  }
+
+  p {
+    color: #ffffff;
+    opacity: 0.7;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+  }
+
+  h3 {
+    color: #ffffff;
+    opacity: 1;
+    font-family: "Josefin Sans";
+    font-size: 18px;
+  }
+
+  h2 {
+    color: #ffffff;
+    opacity: 1;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 800px) {
+  .title-pos {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .title-main {
+    z-index: 3;
+    color: #ffffff;
+    opacity: 0;
+    font-family: "Libre Barcode 39 Text";
+    font-size: 80px !important;
+    text-align: center;
+  }
+
+  p {
+    color: #ffffff;
+    opacity: 0.7;
+    font-family: "Josefin Sans";
+    font-size: 18px;
+  }
+
+  h3 {
+    color: #ffffff;
+    opacity: 1;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+  }
+
+  h2 {
+    color: #ffffff;
+    opacity: 1;
+    font-family: "Josefin Sans";
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .title-pos {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 55vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .title-main {
+    z-index: 3;
+    color: #ffffff;
+    opacity: 0;
+    font-family: "Libre Barcode 39 Text";
+    font-size: 100px !important;
+    text-align: center;
+  }
+
+  p {
+    color: #ffffff;
+    opacity: 0.7;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+  }
+
+  h3 {
+    color: #ffffff;
+    opacity: 1;
+    font-family: "Josefin Sans";
+    font-size: 22px;
+  }
+
+  h2 {
+    color: #ffffff;
+    opacity: 1;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+  }
+}
+
+/* Large devices (laptops/desktops, 1250px and up) */
+@media only screen and (min-width: 1250px) {
+  .title-pos {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .title-main {
+    z-index: 3;
+    color: #ffffff;
+    opacity: 0;
+    font-family: "Libre Barcode 39 Text";
+    font-size: 120px !important;
+    text-align: center;
+  }
+
+  p {
+    color: #ffffff;
+    opacity: 0.7;
+    font-family: "Josefin Sans";
+    font-size: 23px;
+  }
+
+  h3 {
+    color: #ffffff;
+    opacity: 1;
+    font-family: "Josefin Sans";
+    font-size: 38px;
+  }
+
+  h2 {
+    color: #ffffff;
+    opacity: 1;
+    font-family: "Josefin Sans";
+    font-size: 28px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1500px) {
+  .title-pos {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .title-main {
+    z-index: 3;
+    color: #ffffff;
+    opacity: 0;
+    font-family: "Libre Barcode 39 Text";
+    font-size: 150px !important;
+    text-align: center;
+  }
+
+  p {
+    color: #ffffff;
+    opacity: 0.7;
+    font-family: "Josefin Sans";
+    font-size: 23px;
+  }
+
+  h3 {
+    color: #ffffff;
+    opacity: 1;
+    font-family: "Josefin Sans";
+    font-size: 40px;
+  }
+
+  h2 {
+    color: #ffffff;
+    opacity: 1;
+    font-family: "Josefin Sans";
+    font-size: 30px;
+  }
+}
+
 .canvas-pos {
   position: absolute;
   height: 100%;
@@ -227,18 +513,22 @@ h2 {
   position: relative;
 }
 
-.iframe-container{
+.iframe-container {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; 
+  padding-bottom: 56.25%;
   height: 0;
 }
-.iframe-container iframe{
+.iframe-container iframe {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.link-colouration {
+  text-decoration: none !important;
 }
 
 /* About Container 
@@ -263,7 +553,7 @@ h2 {
 }
 .card-header {
   color: #ffffff;
-  opacity: 1.0;
+  opacity: 1;
   font-family: "Josefin Sans";
 }
 
@@ -292,7 +582,7 @@ h2 {
 
 .footer-text {
   color: #ffffff !important;
-  opacity: 1.0 !important;
+  opacity: 1 !important;
   font-size: 100%;
   font-family: "Josefin Sans";
   font-style: "normal";

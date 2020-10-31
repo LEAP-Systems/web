@@ -45,8 +45,11 @@ class AccompContent extends Component {
               </a>
               <Media.Body>
                 <h5>W.E Cowie Innovation Award</h5>
-                <a href="https://carleton.ca/sce/2020/systems-capstone-project-won-the-w-e-cowie-innovation-award/">
-                  <p>
+                <a
+                  className="link-colouration"
+                  href="https://carleton.ca/sce/2020/systems-capstone-project-won-the-w-e-cowie-innovation-award/"
+                >
+                  <p style={{ opacity: "0.8" }} className="nav-colour-text">
                     Systems Capstone Project Won the W.E Cowie Innovation Award
                     2020
                   </p>
