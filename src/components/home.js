@@ -4,13 +4,11 @@ import Image from "react-bootstrap/Image";
 import { Container } from "react-bootstrap";
 import anime from "animejs/lib/anime.es.js";
 import logo from "../images/LEAP_BANNER_INV.png";
-import { genConnectedDots } from "./connect-dots-bg.js";
+import { genConnectedDots } from "./dots.js";
 
-class ParallaxWelcomeImage extends Component {
+class Home extends Component {
   componentDidMount() {
     genConnectedDots("UInetwork5");
-  }
-  componentDidMount() {
     anime({
       targets: ".title-main",
       duration: 4000,
@@ -29,8 +27,7 @@ class ParallaxWelcomeImage extends Component {
       <div id="home" className="d-flex justify-content-center">
         <canvas id="UInetwork5" className="canvas-pos"></canvas>
         <Container fluid className="max-width main-pg-container">
-          {/*<canvas id="UInetwork" className="canvas-pos">
-          </canvas>*/}
+          {/*<canvas id="UInetwork" className="canvas-pos"></canvas>*/}
           <Image className="logo-main" src={logo} />
           {/* <div className="bg-black">
             <Image className="para-img" src={tesseract} />
@@ -44,4 +41,4 @@ class ParallaxWelcomeImage extends Component {
   }
 }
 
-export default ParallaxWelcomeImage;
+export default Home;
