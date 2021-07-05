@@ -12,18 +12,10 @@ const Navbar = () => {
 						<FaBars/>
 					</HamIcon>	
 					<NavMenu>
-						<NavItem>
-							<NavLinks to="mission">Mission</NavLinks>
-						</NavItem>
-						<NavItem>
-							<NavLinks to="design">Design</NavLinks>
-						</NavItem>
-						<NavItem>
-							<NavLinks to="team">Team</NavLinks>
-						</NavItem>
-						<NavItem>
-							<NavLinks to="accolades">Accolades</NavLinks>
-						</NavItem>
+						<NavItem><NavLinks to="mission">Mission</NavLinks></NavItem>
+						<NavItem><NavLinks to="design">Design</NavLinks></NavItem>
+						<NavItem><NavLinks to="team">Team</NavLinks></NavItem>
+						<NavItem><NavLinks to="accolades">Accolades</NavLinks></NavItem>
 					</NavMenu>
 				</NavbarContainer>
 			</Nav>
