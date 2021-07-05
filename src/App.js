@@ -2,6 +2,7 @@ import React from 'react';
 // import logo from './images/LEAP_BANNER_INV_NT.png';
 import './App.css';
 import Navbar from './components/Navbar';
+import SideBar from './components/SideBar';
 import { BrowserRouter as Router } from 'react-router-dom';
 // import TopBar from "./components/topBar";
 // import Home from "./components/home";
@@ -15,6 +16,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 function App() {
   return (
     <Router>
+      <SideBar/>
       <Navbar/>
     </Router>
   );
