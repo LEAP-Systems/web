@@ -1,32 +1,18 @@
-import React, { Component } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
-import "bootstrap/dist/css/bootstrap.min.css";
-import TopBar from "./components/topBar";
-import ParallaxWelcomeImage from "./components/parallaxWelcomeImage";
-import MissionContent from "./components/missionContent";
-import AccompContent from "./components/accompContent";
-import AboutContent from "./components/aboutContent";
-import TeamContent from "./components/teamContent";
-import FooterMenu from "./components/footerMenu";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import "./css/mainpage.css";
-import { genConnectedDots } from "./components/connect-dots-bg.js";
-import "react-slideshow-image/dist/styles.css";
+// import "react-slideshow-image/dist/styles.css";
 import "react-multi-carousel/lib/styles.css";
-import RecruitContent from "./components/recruitContent";
+
 import WebFont from 'webfontloader';
+import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <TopBar />
-    <ParallaxWelcomeImage />
-    <MissionContent />
-    <AboutContent />
-    <AccompContent />
-    <TeamContent />
-    <RecruitContent/>
-    <FooterMenu />
+    <App/>
   </React.StrictMode>,
   document.getElementById("root")
 );
