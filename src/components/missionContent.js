@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container } from "react-bootstrap";
-import { genConnectedDots } from "./connect-dots-bg.js";
+import { genConnectedDots } from "./dots.js";
 
 class MissionContent extends Component {
   componentDidMount() {

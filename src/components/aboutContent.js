@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container } from "react-bootstrap";
-import { genConnectedDots } from "./connect-dots-bg.js";
+import { genConnectedDots } from "./dots.js";
 
 class AboutContent extends Component {
   componentDidMount() {
@@ -15,7 +15,7 @@ class AboutContent extends Component {
           className="text-container-width text-container-colour roundcorners about-pos"
         >
           <section id="about">
-            <h3 className="header">Design Philosophy</h3>
+            <h3 className="header">Design Paradigms</h3>
             <br></br>
             <br></br>
             <p>
