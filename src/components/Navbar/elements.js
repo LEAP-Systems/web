@@ -30,15 +30,10 @@ export const NavbarContainer = styled.div`
 `
 
 export const NavLogo = styled(LinkRouter)`
-  color: #fff;
-  justify-self: flex-start;
   cursor: pointer;
-  font-size: 1.5rem;
-  display:flex;
-  align-items: center;
-  margin-left: 24px;
-  font-weight: bold;
-  text-decoration: none;
+  margin-left: 0px;
+  height: 1%;
+  width: 1%;
 `
 
 export const HamIcon = styled.div`
@@ -80,5 +75,8 @@ export const NavLinks = styled(LinkScroll)`
   cursor: pointer;
   &:active {
     border-bottom: 3px solid #7516E7;
+  }
+  &:hover {
+    border-bottom: 3px solid #B484EE;
   }
 `

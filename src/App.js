@@ -1,9 +1,8 @@
 import React from 'react';
 // import logo from './images/LEAP_BANNER_INV_NT.png';
 import './App.css';
-import Navbar from './components/Navbar';
-import SideBar from './components/SideBar';
 import { BrowserRouter as Router } from 'react-router-dom';
+import Home from './pages';
 // import TopBar from "./components/topBar";
 // import Home from "./components/home";
 // import MissionContent from "./components/missionContent";
@@ -16,8 +15,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 function App() {
   return (
     <Router>
-      <SideBar/>
-      <Navbar/>
+     <Home /> 
     </Router>
   );
 }

@@ -1,14 +1,20 @@
 import React from 'react'
 import { FaBars } from 'react-icons/fa';
 import { NavLogo, Nav, NavbarContainer, HamIcon, NavMenu, NavItem, NavLinks } from './elements'
+import logo from '../../images/LEAP_INS_WHITE.png'
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
 	return (
 		<>
 			<Nav>
 				<NavbarContainer>
-					<NavLogo to='/'>LEAP</NavLogo>
-					<HamIcon>
+					<NavLogo to='/'>
+            <img
+              src={logo}
+              alt='LEAP'>
+            </img>
+          </NavLogo>
+					<HamIcon onClick={toggle}>
 						<FaBars/>
 					</HamIcon>	
 					<NavMenu>
