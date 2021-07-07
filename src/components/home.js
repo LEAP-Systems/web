@@ -4,7 +4,6 @@ import Image from "react-bootstrap/Image";
 import { Container } from "react-bootstrap";
 import anime from "animejs/lib/anime.es.js";
 import logo from "../images/LEAP_BANNER_INV.png";
-import { genConnectedDots } from "./dots.js";
 
 class Home extends Component {
   componentDidMount() {
