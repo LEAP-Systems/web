@@ -11,7 +11,9 @@ const Navbar = ({toggle}) => {
 					<NavLogo to='/'>
             <img
               src={logo}
-              alt='LEAP'>
+              alt='LEAP'
+              width="60"
+              height="60">
             </img>
           </NavLogo>
 					<HamIcon onClick={toggle}>

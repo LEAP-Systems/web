@@ -5,7 +5,7 @@ import { Link as LinkScroll } from 'react-scroll';
 export const Nav = styled.nav`
   background: #000;
   height: 80px;
-  /* margin-top: -80px; */
+  margin-top: -80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,9 +31,9 @@ export const NavbarContainer = styled.div`
 
 export const NavLogo = styled(LinkRouter)`
   cursor: pointer;
-  margin-left: 0px;
-  height: 1%;
-  width: 1%;
+  margin: 1%;
+  height: 100%;
+  width: 100%;
 `
 
 export const HamIcon = styled.div`
