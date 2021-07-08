@@ -8,7 +8,7 @@ const Navbar = ({toggle}) => {
 		<>
 			<Nav>
 				<NavbarContainer>
-					<NavLogo to='/'>
+					<NavLogo to='home'>
             <img
               src={logo}
               alt='LEAP'
@@ -23,6 +23,7 @@ const Navbar = ({toggle}) => {
 						<NavItem><NavLinks to="mission">Mission</NavLinks></NavItem>
 						<NavItem><NavLinks to="design">Design</NavLinks></NavItem>
 						<NavItem><NavLinks to="team">Team</NavLinks></NavItem>
+						<NavItem><NavLinks to="recruit">Join</NavLinks></NavItem>
 						<NavItem><NavLinks to="accolades">Accolades</NavLinks></NavItem>
 					</NavMenu>
 				</NavbarContainer>
