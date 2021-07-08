@@ -1,14 +1,12 @@
 export function genConnectedDots(network) {
   // Draw the scene
-  var canvas = document.getElementById(network),
-    ctx = canvas.getContext("2d");
-
+  var canvas = document.getElementById(network)
+  var ctx = canvas.getContext("2d");
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
 
+  const FPS = 60; // Frames per second
   var stars = [], // Array that contains the stars
-    FPS = 60, // Frames per second
-    x = 100, // Number of stars
     mouse = {
       x: 0,
       y: 0,
@@ -16,7 +14,7 @@ export function genConnectedDots(network) {
 
   // Push stars to array
 
-  for (var i = 0; i < x; i++) {
+  for (let i = 0; i < 100; i++) {
     stars.push({
       x: Math.random() * canvas.width,
       y: Math.random() * canvas.height,
@@ -28,26 +26,22 @@ export function genConnectedDots(network) {
 
   function draw() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-
     ctx.globalCompositeOperation = "lighter";
-
-    for (var i = 0, x = stars.length; i < x; i++) {
-      var s = stars[i];
-
+    for (let i = 0; i < stars.length; i++) {
       ctx.fillStyle = "#fff";
       ctx.beginPath();
-      ctx.arc(s.x, s.y, s.radius, 0, 2 * Math.PI);
+      ctx.arc(stars[i].x, stars[i].y, stars[i].radius, 0, 2 * Math.PI);
       ctx.fill();
       ctx.fillStyle = "black";
       ctx.stroke();
     }
 
     ctx.beginPath();
-    for (var i = 0, x = stars.length; i < x; i++) {
+    for (let i = 0; i < stars.length; i++) {
       var starI = stars[i];
       ctx.moveTo(starI.x, starI.y);
       if (distance(mouse, starI) < 150) ctx.lineTo(mouse.x, mouse.y);
-      for (var j = 0, x = stars.length; j < x; j++) {
+      for (var j = 0; j < stars.length; j++) {
         var starII = stars[j];
         if (distance(starI, starII) < 150) {
           //ctx.globalAlpha = (1 / 150 * distance(starI, starII).toFixed(1));
@@ -61,16 +55,7 @@ export function genConnectedDots(network) {
   }
 
   function distance(point1, point2) {
-    var xs = 0;
-    var ys = 0;
-
-    xs = point2.x - point1.x;
-    xs = xs * xs;
-
-    ys = point2.y - point1.y;
-    ys = ys * ys;
-
-    return Math.sqrt(xs + ys);
+    return Math.sqrt((point2.x - point1.x)**2 + (point2.y - point1.y)**2);
   }
 
   // Update star locations

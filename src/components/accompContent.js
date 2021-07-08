@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container, Media } from "react-bootstrap";
-import { genConnectedDots } from "./connect-dots-bg.js";
+import { genConnectedDots } from "./dots.js";
 import CULogo from "../images/CULogo.png";
 
 class AccompContent extends Component {

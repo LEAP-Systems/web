@@ -4,7 +4,7 @@ import cSimg from "../images/christian.png";
 import aHimg from "../images/aaron.png";
 import sCimg from "../images/steven.png";
 import bZimg from "../images/brandon.png";
-import { genConnectedDots } from "./connect-dots-bg.js";
+import { genConnectedDots } from "./dots.js";
 import Carousel from "react-multi-carousel";
 
 const responsive = {
