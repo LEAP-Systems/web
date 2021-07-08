@@ -32,6 +32,16 @@ export const HeroContent = styled.div`
   align-items: center;
 `
 
+export const ImgWrap = styled.div`
+  max-width: 555px;
+  height: 100%;
+`
+
+export const HeroImg = styled.img`
+  width: 100%;
+  padding: 1%;
+`
+
 export const HeroH1 = styled.h1`
   color: #fff;
   font-size: 48px;
