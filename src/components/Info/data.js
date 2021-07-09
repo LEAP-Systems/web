@@ -17,8 +17,8 @@ export const mission = {
 }
 
 export const design = {
-	id: 'design',
-	light: true,
+  id: 'design',
+  light: true,
   light_text: false,
   light_text_desc: true,
   topline: 'Design',
@@ -35,28 +35,12 @@ export const design = {
   increase in the theoretical bandwidth capabilities over conventional single cell Lifi systems.",
 }
 
-export const team = {
-	id: 'team',
-	light: false,
-  light_text: true,
-  light_text_desc: true,
-  topline: 'Team',
-  headline: 'The Brains Behind the Magic',
-  img_start: true,
-  img: require('../../images/team.svg').default,
-  alt: 'team',
-  dark: true,
-  primary: true,
-  dark_text: true,
-  description: "This is our team",
-}
-
 export const recruit = {
-	id: 'recruit',
-	light: true,
+  id: 'recruit',
+  light: true,
   light_text: false,
   light_text_desc: true,
-  topline: 'Recruitment',
+  topline: 'Join our team',
   headline: 'Seeking Contributors.',
   img_start: true,
   img: require('../../images/recruitment.JPG').default,
@@ -68,8 +52,8 @@ export const recruit = {
 }
 
 export const accolades = {
-	id: 'accolades',
-	light: false,
+  id: 'accolades',
+  light: false,
   light_text: true,
   light_text_desc: true,
   topline: 'Accolades',
