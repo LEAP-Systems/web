@@ -1,13 +1,14 @@
 import React from 'react'
 import Card from '../Card'
 import { aaron, brandon, christian, steven } from './data'
-import { TeamContainer, TeamWrapper, TeamH1 } from './elements'
+import { TeamContainer, TeamWrapper, TeamH1, TopLine } from './elements'
 
 const Team = ({id}) => {
   return (
     <div>
       <TeamContainer id={id}>
-        <TeamH1>Our Team</TeamH1>
+        <TopLine>Our Team</TopLine>
+        <TeamH1>Research & Development</TeamH1>
         <TeamWrapper>
           <Card {...christian}/>
           <Card {...brandon}/>
