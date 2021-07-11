@@ -19,9 +19,9 @@ const Home = () => {
       <Hero/>
       <Info {...mission}/>
       <Info {...design}/>
+      <Info {...accolades}/>
       <Team id='team'/>
       <Info {...recruit}/>
-      <Info {...accolades}/>
     </>
   );
 }
