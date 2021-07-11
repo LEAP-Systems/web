@@ -7,8 +7,8 @@ const Team = ({id}) => {
   return (
     <div>
       <TeamContainer id={id}>
+        <TeamH1>Our Team</TeamH1>
         <TeamWrapper>
-          <TeamH1>Our Team</TeamH1>
           <Card {...christian}/>
           <Card {...brandon}/>
           <Card {...steven}/>
