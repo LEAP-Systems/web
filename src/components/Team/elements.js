@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const TeamContainer = styled.div`
   height: 800px;
+  color: #855dd4;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,4 +43,13 @@ export const TeamH1 = styled.h1`
   @media screen and (max-width: 480px) {
     font-size: 2rem;
   }
+`
+
+export const TopLine = styled.p`
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
 `
