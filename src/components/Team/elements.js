@@ -7,11 +7,14 @@ export const TeamContainer = styled.div`
   justify-content: center;
   align-items: center;
   background: #0c0c0c;
+  @media screen and (max-width: 1000px) {
+    height: 1000px;
+  }
   @media screen and (max-width: 768px) {
-    height: 1100px;
+    height: 1600px;
   }
   @media screen and (max-width: 480px) {
-    height: 1300px;
+    height: 1500px;
   }
 `
 
@@ -19,7 +22,7 @@ export const TeamWrapper = styled.div`
   max-width: 1000px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
   grid-gap: 16px;
   padding: 0 50px;
