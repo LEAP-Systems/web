@@ -16,6 +16,7 @@ export const CardContainer = styled.div`
     background: #000;
     color: #fff;
     transition: all 0.2s ease-in-out;
+    cursor: pointer;
   }
 `
 
