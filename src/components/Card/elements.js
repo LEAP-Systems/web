@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 
-export const CardContainer = styled.div`
-  background: #fff;
+export const CardContainer = styled.a`
+  background: #1c123b;
   display: flex;
+  color: #855dd4;
+  text-decoration: none;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
@@ -12,9 +14,9 @@ export const CardContainer = styled.div`
   box-shadow: 0 1px 3px rgba(0,0,0,0.2);
   transition: all 0.2s ease-in-out;
   &:hover {
-    transform: scale(1.02);
-    background: #000;
+    transform: scale(1.03);
     color: #fff;
+    background: #855dd4;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
   }
@@ -23,24 +25,23 @@ export const CardContainer = styled.div`
 export const CardIcon = styled.img`
   height: 160px;
   width: 160px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 `
 
 export const CardH2 = styled.h2`
   font-size: 1rem;
-  color: #855dd4;
   margin-bottom: 10px;
-  color: '#fff';
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
-  letter-spacing: 1.4px;
+  letter-spacing: 1.4px; 
   text-transform: uppercase;
   margin-bottom: 16px;
 `
 
 export const CardP = styled.p`
   font-size: 1rem;
+  color: #fff;
   text-align: left;
 `
 
