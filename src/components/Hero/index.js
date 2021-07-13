@@ -2,7 +2,6 @@ import React from "react";
 import logo from "../../images/LEAP_INS_WHITE.png";
 import {
   HeroContainer,
-  HeroBg,
   HeroH1,
   HeroContent,
   HeroP1,

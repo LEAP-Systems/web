@@ -9,10 +9,6 @@ const Card = ({ src, alt, header, description, link }) => {
         <CardIcon src={src} alt={alt} />
         <CardH2>{header}</CardH2>
         <CardP>{description}</CardP>
-        {/* <CardSocialsWrapper>
-          <CardSocial src={require('../../images/github.png').default} href={github}></CardSocial>
-          <CardSocial src={require('../../images/linkedin.png').default} href={linkedin}></CardSocial> */}
-        {/* </CardSocialsWrapper> */}
       </CardContainer>
     </>
   );

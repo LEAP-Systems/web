@@ -17,11 +17,11 @@ import {
 const Info = ({
   light,
   id,
-  img_start,
+  imgStart,
   topline,
-  light_text,
+  lightText,
   headline,
-  dark_text,
+  darkText,
   description,
   img,
   alt,
@@ -30,12 +30,12 @@ const Info = ({
     <>
       <InfoContainer id={id} light={light}>
         <InfoWrapper>
-          <InfoRow img_start={img_start}>
+          <InfoRow img_start={imgStart}>
             <Colomn1>
               <TextWrapper>
                 <TopLine>{topline}</TopLine>
-                <Heading light_text={light_text}>{headline}</Heading>
-                <SubTitle dark_text={dark_text}>{description}</SubTitle>
+                <Heading light_text={lightText}>{headline}</Heading>
+                <SubTitle dark_text={darkText}>{description}</SubTitle>
               </TextWrapper>
             </Colomn1>
             <Colomn2>

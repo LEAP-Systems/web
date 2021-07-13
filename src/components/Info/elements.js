@@ -24,11 +24,11 @@ export const InfoRow = styled.div`
   display: grid;
   grid-auto-columns: minmax(auto, 1fr);
   align-items: center;
-  grid-template-areas: ${({ img_start }) =>
-    img_start ? `'col2 col1'` : `'col1 col2'`};
+  grid-template-areas: ${({ imgStart }) =>
+    imgStart ? `'col2 col1'` : `'col1 col2'`};
   @media screen and (max-width: 768px) {
-    grid-template-areas: ${({ img_start }) =>
-      img_start ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
+    grid-template-areas: ${({ imgStart }) =>
+      imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
   }
 `;
 
@@ -65,7 +65,7 @@ export const Heading = styled.h1`
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-  color: ${({ light_text }) => (light_text ? "#f7f8fa" : "#010606")};
+  color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#010606")};
   @media screen and (max-width: 480px) {
     font-size: 32px;
   }
@@ -77,7 +77,7 @@ export const SubTitle = styled.p`
   font-size: 18px;
   font-weight: 300;
   line-height: 24px;
-  color: ${({ dark_text }) => (dark_text ? "#010606" : "#f7f8fa")};
+  color: ${({ darkText }) => (darkText ? "#010606" : "#f7f8fa")};
 `;
 
 export const ImgWrap = styled.div`
