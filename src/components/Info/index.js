@@ -30,12 +30,12 @@ const Info = ({
     <>
       <InfoContainer id={id} light={light}>
         <InfoWrapper>
-          <InfoRow img_start={imgStart}>
+          <InfoRow imgStart={imgStart}>
             <Colomn1>
               <TextWrapper>
                 <TopLine>{topline}</TopLine>
-                <Heading light_text={lightText}>{headline}</Heading>
-                <SubTitle dark_text={darkText}>{description}</SubTitle>
+                <Heading lightText={lightText}>{headline}</Heading>
+                <SubTitle darkText={darkText}>{description}</SubTitle>
               </TextWrapper>
             </Colomn1>
             <Colomn2>
