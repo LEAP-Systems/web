@@ -41,7 +41,7 @@ export const recruit = {
   light_text: false,
   light_text_desc: true,
   topline: 'Join our team',
-  headline: 'Seeking Contributors.',
+  headline: 'Seeking Contributors',
   img_start: true,
   img: require('../../images/recruitment.JPG').default,
   alt: 'recruitment',
