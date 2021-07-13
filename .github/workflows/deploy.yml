@@ -1,0 +1,21 @@
+---
+name: deploy 
+on:
+  push:
+    branches: [ master ]
+  schedule:
+    - cron: '24 */24 * * *'  # Once a day
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install modules
+      run: npm ci
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build
+        allow_empty_commit: true
+        cname: www.leapsystems.online 
