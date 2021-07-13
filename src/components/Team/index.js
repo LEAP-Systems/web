@@ -5,7 +5,7 @@ import { TeamContainer, TeamWrapper, TeamH1, TopLine } from './elements'
 
 const Team = ({id}) => {
   return (
-    <div>
+    <>
       <TeamContainer id={id}>
         <TopLine>Our Team</TopLine>
         <TeamH1>Research & Development</TeamH1>
@@ -16,7 +16,7 @@ const Team = ({id}) => {
           <Card {...aaron}/>
         </TeamWrapper>
       </TeamContainer>
-    </div>
+    </>
   )
 }
 
