@@ -4,11 +4,11 @@ import { NavLogo, Nav, NavbarContainer, HamIcon, NavMenu, NavItem, NavLinks } fr
 import logo from '../../images/LEAP_INS_WHITE.png'
 
 const Navbar = ({toggle}) => {
-	return (
-		<>
-			<Nav>
-				<NavbarContainer>
-					<NavLogo to='/'>
+  return (
+    <>
+      <Nav>
+        <NavbarContainer>
+          <NavLogo to='/'>
             <img
               src={logo}
               alt='LEAP'
@@ -16,19 +16,19 @@ const Navbar = ({toggle}) => {
               height="60">
             </img>
           </NavLogo>
-					<HamIcon onClick={toggle}>
-						<FaBars/>
-					</HamIcon>	
-					<NavMenu>
-						<NavItem><NavLinks to="mission">Mission</NavLinks></NavItem>
-						<NavItem><NavLinks to="design">Design</NavLinks></NavItem>
-						<NavItem><NavLinks to="accolades">Accolades</NavLinks></NavItem>
-						<NavItem><NavLinks to="team">Team</NavLinks></NavItem>
-						<NavItem><NavLinks to="recruit">Join</NavLinks></NavItem>
-					</NavMenu>
-				</NavbarContainer>
-			</Nav>
-		</>
+          <HamIcon onClick={toggle}>
+            <FaBars/>
+          </HamIcon>	
+          <NavMenu>
+            <NavItem><NavLinks to="mission">Mission</NavLinks></NavItem>
+            <NavItem><NavLinks to="design">Design</NavLinks></NavItem>
+            <NavItem><NavLinks to="accolades">Accolades</NavLinks></NavItem>
+            <NavItem><NavLinks to="team">Team</NavLinks></NavItem>
+            <NavItem><NavLinks to="recruit">Join</NavLinks></NavItem>
+          </NavMenu>
+        </NavbarContainer>
+      </Nav>
+    </>
 	)
 }
 
