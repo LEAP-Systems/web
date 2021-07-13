@@ -12,6 +12,8 @@ jobs:
     - uses: actions/checkout@v2
     - name: Install modules
       run: npm ci
+    - name: debug
+      run: apt install tree && tree src
     - name: Build
       run: npm run build
     - name: Deploy
