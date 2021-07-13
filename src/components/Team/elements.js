@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const TeamContainer = styled.div`
   height: 800px;
@@ -17,7 +17,7 @@ export const TeamContainer = styled.div`
   @media screen and (max-width: 480px) {
     height: 1500px;
   }
-`
+`;
 
 export const TeamWrapper = styled.div`
   max-width: 1000px;
@@ -34,7 +34,7 @@ export const TeamWrapper = styled.div`
     grid-template-columns: 1fr;
     padding: 0 20px;
   }
-`
+`;
 
 export const TeamH1 = styled.h1`
   font-size: 2.5rem;
@@ -43,7 +43,7 @@ export const TeamH1 = styled.h1`
   @media screen and (max-width: 480px) {
     font-size: 2rem;
   }
-`
+`;
 
 export const TopLine = styled.p`
   font-size: 16px;
@@ -52,4 +52,4 @@ export const TopLine = styled.p`
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 16px;
-`
+`;
