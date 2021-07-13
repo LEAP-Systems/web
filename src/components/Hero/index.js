@@ -1,15 +1,13 @@
 import React from 'react'
-import Particles from 'react-particles-js';
 import logo from '../../images/LEAP_INS_WHITE.png'
-import { HeroContainer, HeroBg, HeroH1, HeroContent, HeroP1, HeroImg, ImgWrap } from './elements'
+import { HeroContainer, HeroBg, HeroH1, HeroContent, HeroP1, HeroImg, ImgWrap, Particle} from './elements'
 
 const Hero = () => {
 	return (
-		<HeroContainer>
-			<HeroBg>
-        <Particles/>
-      </HeroBg>
-      <HeroContent>
+    <>
+      <HeroContainer>
+        <Particle/>
+        <HeroContent>
         <ImgWrap>
           <HeroImg src={logo} alt='logo'></HeroImg>
         </ImgWrap>
@@ -20,7 +18,8 @@ const Hero = () => {
           A Secure Multicast Light Communication Solution
         </HeroP1>
       </HeroContent>
-		</HeroContainer>
+      </HeroContainer>
+    </>
 	);
 }
 
