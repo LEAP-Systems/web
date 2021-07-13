@@ -13,7 +13,7 @@ jobs:
     - name: Install modules
       run: npm ci
     - name: debug
-      run: apt install tree && tree src
+      run: sudo apt install tree && tree src
     - name: Build
       run: npm run build
     - name: Deploy
