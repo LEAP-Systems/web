@@ -2,10 +2,10 @@ import React from 'react'
 
 import { CardContainer, CardH2, CardIcon, CardP, CardSocial, CardSocialsWrapper} from './elements'
 
-const Card = ({src, alt, header, description, github, linkedin}) => {
+const Card = ({src, alt, header, description, link}) => {
   return (
     <>
-      <CardContainer>
+      <CardContainer href={link}>
         <CardIcon src={src} alt={alt}/>
         <CardH2>{header}</CardH2>
         <CardP>{description}</CardP>
