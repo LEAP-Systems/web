@@ -21,8 +21,6 @@ jobs:
           ${{ runner.os }}-node-
     - name: Install modules
       run: npm ci
-    - name: debug
-      run: sudo apt install tree && tree src
     - name: Build
       run: npm run build
     - name: Deploy
