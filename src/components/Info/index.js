@@ -1,8 +1,31 @@
-import React from 'react'
+import React from "react";
 
-import { InfoContainer, InfoWrapper, InfoRow, Colomn1, Colomn2, TextWrapper, TopLine, Heading, SubTitle, Img, ImgWrap } from './elements'
+import {
+  InfoContainer,
+  InfoWrapper,
+  InfoRow,
+  Colomn1,
+  Colomn2,
+  TextWrapper,
+  TopLine,
+  Heading,
+  SubTitle,
+  Img,
+  ImgWrap,
+} from "./elements";
 
-const Info = ({light, id, img_start, topline, light_text, headline, dark_text, description, img, alt}) => {
+const Info = ({
+  light,
+  id,
+  img_start,
+  topline,
+  light_text,
+  headline,
+  dark_text,
+  description,
+  img,
+  alt,
+}) => {
   return (
     <>
       <InfoContainer id={id} light={light}>
@@ -22,9 +45,9 @@ const Info = ({light, id, img_start, topline, light_text, headline, dark_text, d
             </Colomn2>
           </InfoRow>
         </InfoWrapper>
-      </InfoContainer> 
+      </InfoContainer>
     </>
-  )
-}
+  );
+};
 
-export default Info
+export default Info;
