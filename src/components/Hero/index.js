@@ -3,7 +3,7 @@ import logo from '../../images/LEAP_INS_WHITE.png'
 import { HeroContainer, HeroBg, HeroH1, HeroContent, HeroP1, HeroImg, ImgWrap, Particle} from './elements'
 
 const Hero = () => {
-	return (
+  return (
     <>
       <HeroContainer>
         <Particle/>
@@ -20,7 +20,7 @@ const Hero = () => {
       </HeroContent>
       </HeroContainer>
     </>
-	);
+  );
 }
 
 export default Hero;
