@@ -1,0 +1,25 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "extensions": {
+    "recommendations": [
+      "esbenp.prettier-vscode",
+      "rvest.vs-code-prettier-eslint",
+      "dsznajder.es7-react-js-snippets",
+      "eamodio.gitlens",
+      "jpoissonnier.vscode-styled-components",
+      "dbaeumer.vscode-eslint"
+    ]
+  },
+  "settings": {
+    "[javascript]": {
+      "editor.formatOnSave": false,
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      },
+    }
+  }
+}
