@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Info from "../components/Info";
 import Team from "../components/Team";
+import Footer from "../components/Footer";
 import { accolades, design, mission, recruit } from "../components/Info/data";
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
       <Info {...accolades} />
       <Team id="team" />
       <Info {...recruit} />
+      <Footer />
     </>
   );
 };
