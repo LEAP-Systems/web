@@ -8,7 +8,7 @@ const Team = ({ id }) => {
     <>
       <TeamContainer id={id}>
         <TopLine>Our Team</TopLine>
-        <TeamH1>Research & Development</TeamH1>
+        <TeamH1>Follow Us</TeamH1>
         <TeamWrapper>
           <Card {...christian} />
           <Card {...brandon} />

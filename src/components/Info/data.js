@@ -6,7 +6,7 @@ export const mission = {
   topline: "Mission",
   headline: "Securing LiFi",
   imgStart: false,
-  img: require("../../images/mission.svg").default,
+  img: require("../../images/mission.png").default,
   alt: "Christian",
   dark: true,
   primary: true,
@@ -29,7 +29,7 @@ export const design = {
   primary: true,
   darkText: true,
   description:
-    "LEAP uses light modulation to transmit data to up to 6 photo-receiving devices in line-of-sight. It exploits properties of euclidean geometry to tag and communicate concurrently to each entity on secure channels. Cell multiplicity results in a proportional increase in the theoretical bandwidth capabilities over conventional single cell Lifi systems.",
+    "LEAP uses light modulation to transmit data to up to 4 photo-receiving devices in line-of-sight. It exploits properties of euclidean geometry to tag and anonymously communicate concurrently to each entity on secure channels. Cell multiplicity results in a proportional increase in the theoretical bandwidth capabilities over conventional single cell Lifi systems.",
 };
 
 export const recruit = {
@@ -63,5 +63,5 @@ export const accolades = {
   primary: true,
   darkText: false,
   description:
-    "The fourth year capstone project Light Emitting Access Point (LEAP) won the 2020 W.E. Cowie Innovation Award presented by Carleton University, which is valued at $27,000. In addition the team won the nomination for the best promotional video by Carleton University's SCE Department. The team was awarded $1000 and featured on the SCE departments' recruitment web-page.",
+    "The fourth year capstone project won the 2020 W.E. Cowie Innovation Award presented by Carleton University, which is valued at $27,000. The team also went on to win the nomination for the best promotional video by Carleton University's SCE Department. The team was awarded $1000 and featured on the SCE departments' recruitment web-page.",
 };

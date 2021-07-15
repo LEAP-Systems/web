@@ -16,19 +16,59 @@ const Sidebar = ({ open, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="mission" onClick={toggle}>
+          <SidebarLink
+            to="mission"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+            onClick={toggle}
+          >
             Mission
           </SidebarLink>
-          <SidebarLink to="design" onClick={toggle}>
+          <SidebarLink
+            to="design"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+            onClick={toggle}
+          >
             Design
           </SidebarLink>
-          <SidebarLink to="accolades" onClick={toggle}>
+          <SidebarLink
+            to="accolades"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+            onClick={toggle}
+          >
             Accolades
           </SidebarLink>
-          <SidebarLink to="team" onClick={toggle}>
+          <SidebarLink
+            to="team"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+            onClick={toggle}
+          >
             Team
           </SidebarLink>
-          <SidebarLink to="recruit" onClick={toggle}>
+          <SidebarLink
+            to="recruit"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+            onClick={toggle}
+          >
             Join
           </SidebarLink>
         </SidebarMenu>
