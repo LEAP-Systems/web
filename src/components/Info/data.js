@@ -6,7 +6,7 @@ export const mission = {
   topline: "Mission",
   headline: "Securing LiFi",
   imgStart: false,
-  img: require("../../images/mission.svg").default,
+  img: require("../../images/mission.png").default,
   alt: "Christian",
   dark: true,
   primary: true,
