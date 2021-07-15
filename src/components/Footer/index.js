@@ -1,5 +1,6 @@
 import React from "react";
 import { FaYoutube, FaGithub } from "react-icons/fa";
+import { animateScroll as scroll } from "react-scroll";
 import {
   FooterContainer,
   FooterWrapper,
@@ -19,6 +20,9 @@ import {
 import logo from "../../images/LEAP_INS_WHITE.png";
 
 const Footer = () => {
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
   return (
     <>
       <FooterContainer>
@@ -52,7 +56,7 @@ const Footer = () => {
           </FooterLinksContainer>
           <External>
             <ExternalWrapper>
-              <Home to="/">
+              <Home to="/" onClick={toggleHome}>
                 <Logo src={logo} alt="LEAP" width="80" height="80"></Logo>
               </Home>
               <WebsiteRights>
