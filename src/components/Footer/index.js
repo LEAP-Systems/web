@@ -1,5 +1,5 @@
 import React from "react";
-import { FaYoutube, FaGithub } from "react-icons/fa";
+import { FaYoutube, FaGithub, FaDiscord } from "react-icons/fa";
 import { animateScroll as scroll } from "react-scroll";
 import {
   FooterContainer,
@@ -63,6 +63,13 @@ const Footer = () => {
                 LEAP Systems © {new Date().getFullYear()}. All Rights Reserved
               </WebsiteRights>
               <Icons>
+                <IconLink
+                  href="https://discord.gg/vEdPyVk"
+                  target="_blank"
+                  aria-label="Discord"
+                >
+                  <FaDiscord />
+                </IconLink>
                 <IconLink
                   href="https://github.com/LEAP-Systems"
                   target="_blank"
