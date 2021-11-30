@@ -3,7 +3,7 @@ export const christian = {
   alt: "christian",
   header: "Christian Sargusingh",
   description: "Embedded & Hardware",
-  link: "https://github.com/cSDes1gn",
+  link: "https://github.com/ztnel",
 };
 
 export const steven = {
