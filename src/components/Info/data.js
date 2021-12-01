@@ -12,7 +12,7 @@ export const mission = {
   primary: true,
   darkText: false,
   description:
-    "Light Emitting Access Point (LEAP) is a concept for short range transmission solution for sensitive networks. LEAP exploits directional multicast to increase security while decoupling positional information for each connected device.",
+    "The Light Emitting Access Point (LEAP) project explores a short-range optical transmission solution using an LED cube. The project aims to demonstrate high bandwidth capabilities for multiple concurrent clients in compliance with the IEEE 802.11bb LiFi specification.",
 };
 
 export const design = {
