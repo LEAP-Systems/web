@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import {
   InfoContainer,
@@ -26,6 +28,9 @@ const Info = ({
   img,
   alt,
 }) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <InfoContainer id={id} light={light}>
@@ -33,9 +38,24 @@ const Info = ({
           <InfoRow imgStart={imgStart}>
             <Colomn1>
               <TextWrapper>
-                <TopLine>{topline}</TopLine>
-                <Heading lightText={lightText}>{headline}</Heading>
-                <SubTitle darkText={darkText}>{description}</SubTitle>
+                <TopLine data-aos-duration="1000" data-aos="fade-left">
+                  {topline}
+                </TopLine>
+                <Heading
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                  data-aos-delay="100"
+                  lightText={lightText}
+                >
+                  {headline}
+                </Heading>
+                <SubTitle
+                  data-aos="zoom-out"
+                  data-aos-duration="1000"
+                  darkText={darkText}
+                >
+                  {description}
+                </SubTitle>
               </TextWrapper>
             </Colomn1>
             <Colomn2>
