@@ -53,7 +53,10 @@ export const HeroImg = styled.img`
 `;
 
 export const HeroH1 = styled.h1`
-  color: #fff;
+  color: #855dd4;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
   font-size: 48px;
   text-align: center;
   @media screen and (max-width: 768px) {
