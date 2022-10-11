@@ -52,6 +52,7 @@ const Info = ({
                 <SubTitle
                   data-aos="fade-in"
                   data-aos-duration="1000"
+                  data-aos-delay="100"
                   darkText={darkText}
                 >
                   {description}
