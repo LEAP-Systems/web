@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Particles from "react-particles-js";
+import Particles from "react-tsparticles";
 
 export const HeroContainer = styled.div`
   background: #0c0c0c;
@@ -9,9 +9,19 @@ export const HeroContainer = styled.div`
   height: 800px;
   position: relative;
   z-index: 1;
+  height: 1200px;
+  @media screen and (max-width: 1000px) {
+    height: 1000px;
+  }
+  @media screen and (max-width: 768px) {
+    height: 1600px;
+  }
+  @media screen and (max-width: 480px) {
+    height: 1500px;
+  }
 `;
 
-export const Particle = styled(Particles)`
+export const HeroParticles = styled(Particles)`
   position: absolute;
   top: 0;
   right: 0;
@@ -43,7 +53,10 @@ export const HeroImg = styled.img`
 `;
 
 export const HeroH1 = styled.h1`
-  color: #fff;
+  color: #855dd4;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
   font-size: 48px;
   text-align: center;
   @media screen and (max-width: 768px) {
