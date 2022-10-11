@@ -50,7 +50,7 @@ const Info = ({
                   {headline}
                 </Heading>
                 <SubTitle
-                  data-aos="zoom-out"
+                  data-aos="fade-in"
                   data-aos-duration="1000"
                   darkText={darkText}
                 >
