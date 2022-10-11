@@ -1,4 +1,6 @@
-import React, { useCallback } from "react";
+import React, { useCallback, useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import logo from "../../images/LEAP_INS_WHITE.png";
 import {
   HeroContainer,
@@ -12,6 +14,9 @@ import {
 import { loadFull } from "tsparticles";
 
 const Hero = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   const particlesInit = useCallback(async (engine) => {
     console.log(engine);
     // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
@@ -68,10 +73,30 @@ const Hero = () => {
         />
         <HeroContent>
           <ImgWrap>
-            <HeroImg src={logo} alt="logo"></HeroImg>
+            <HeroImg
+              data-aos="zoom-out"
+              data-aos-duration="1500"
+              data-aos-once="false"
+              src={logo}
+              alt="logo"
+            ></HeroImg>
           </ImgWrap>
-          <HeroH1>LEAP Systems Online</HeroH1>
-          <HeroP1>A Secure Multicast Light Communication Solution</HeroP1>
+          <HeroH1
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+            data-aos-once="false"
+          >
+            LEAP Systems
+          </HeroH1>
+          <HeroP1
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-once="false"
+            data-aos-delay="200"
+          >
+            A Secure Multicast Light Communication Project
+          </HeroP1>
         </HeroContent>
       </HeroContainer>
     </>
