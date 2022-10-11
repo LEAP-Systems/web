@@ -1,5 +1,5 @@
 export const christian = {
-  src: require("../../images/christian.png").default,
+  src: require("../../images/christian.png"),
   alt: "christian",
   header: "Christian Sargusingh",
   description: "Embedded & Hardware",
@@ -7,7 +7,7 @@ export const christian = {
 };
 
 export const steven = {
-  src: require("../../images/steven.png").default,
+  src: require("../../images/steven.png"),
   alt: "steven",
   header: "Steven Zhou",
   description: "Systems & Software",
@@ -15,7 +15,7 @@ export const steven = {
 };
 
 export const brandon = {
-  src: require("../../images/brandon.png").default,
+  src: require("../../images/brandon.png"),
   alt: "brandon",
   header: "Brandon Zhu",
   description: "Computer Vision & Backend",
@@ -23,7 +23,7 @@ export const brandon = {
 };
 
 export const aaron = {
-  src: require("../../images/aaron.png").default,
+  src: require("../../images/aaron.png"),
   alt: "aaron",
   header: "Aaron Huang",
   description: "Embedded & Hardware",
