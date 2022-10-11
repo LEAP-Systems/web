@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const TeamContainer = styled.div`
-  height: 800px;
   color: #855dd4;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #0c0c0c;
+  height: 1200px;
   @media screen and (max-width: 1000px) {
     height: 1000px;
   }
@@ -21,6 +21,7 @@ export const TeamContainer = styled.div`
 
 export const TeamWrapper = styled.div`
   max-width: 1000px;
+
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;

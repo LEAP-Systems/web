@@ -1,4 +1,5 @@
 import styled from "styled-components";
+// import Particles from "react-tsparticles";
 
 export const InfoContainer = styled.div`
   color: #855dd4;
@@ -11,7 +12,7 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 860px;
+  height: 1200px;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;

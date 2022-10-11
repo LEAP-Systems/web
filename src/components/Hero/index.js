@@ -7,9 +7,9 @@ import {
   HeroP1,
   HeroImg,
   ImgWrap,
+  HeroParticles,
 } from "./elements";
 import { loadFull } from "tsparticles";
-import Particles from "react-tsparticles";
 
 const Hero = () => {
   const particlesInit = useCallback(async (engine) => {
@@ -25,52 +25,51 @@ const Hero = () => {
   }, []);
   return (
     <>
-      <Particles
-        id="tsparticles"
-        container={HeroContainer}
-        init={particlesInit}
-        loaded={particlesLoaded}
-        options={{
-          fpsLimit: 120,
-          particles: {
-            color: {
-              value: "#ffffff",
-            },
-            links: {
-              color: "#ffffff",
-              distance: 200,
-              enable: true,
-              opacity: 0.3,
-              width: 1,
-            },
-            collisions: {
-              enable: true,
-            },
-            move: {
-              directions: "none",
-              enable: true,
-              outModes: {
-                default: "bounce",
+      <HeroContainer id="hero">
+        <HeroParticles
+          id="tsparticles"
+          init={particlesInit}
+          loaded={particlesLoaded}
+          options={{
+            fullScreen: false,
+            fpsLimit: 60,
+            particles: {
+              color: {
+                value: "#ffffff",
               },
-              random: false,
-              speed: 2,
-              straight: false,
+              links: {
+                color: "#ffffff",
+                distance: 150,
+                enable: true,
+                opacity: 0.3,
+                width: 1,
+              },
+              collisions: {
+                enable: true,
+              },
+              move: {
+                directions: "none",
+                enable: true,
+                outModes: {
+                  default: "bounce",
+                },
+                random: false,
+                speed: 1,
+                straight: false,
+              },
+              size: {
+                value: { min: 0.1, max: 2 },
+              },
+              opacity: {
+                value: 0.1,
+              },
             },
-            opacity: {
-              value: 0.3,
-            },
-            shape: {
-              type: "circle",
-            },
-          },
-        }}
-      />
-      <HeroContainer>
+          }}
+        />
         <HeroContent>
           <ImgWrap>
             <HeroImg src={logo} alt="logo"></HeroImg>
           </ImgWrap>
-
           <HeroH1>LEAP Systems Online</HeroH1>
           <HeroP1>A Secure Multicast Light Communication Solution</HeroP1>
         </HeroContent>
