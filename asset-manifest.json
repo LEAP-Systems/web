@@ -1,33 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.f30bfe22.chunk.css",
-    "main.js": "/static/js/main.012d473b.chunk.js",
-    "main.js.map": "/static/js/main.012d473b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.fe12ad78.js",
-    "runtime-main.js.map": "/static/js/runtime-main.fe12ad78.js.map",
-    "static/css/2.e1b25a95.chunk.css": "/static/css/2.e1b25a95.chunk.css",
-    "static/js/2.3e35a186.chunk.js": "/static/js/2.3e35a186.chunk.js",
-    "static/js/2.3e35a186.chunk.js.map": "/static/js/2.3e35a186.chunk.js.map",
+    "main.css": "/static/css/main.1963a2eb.css",
+    "main.js": "/static/js/main.4bbb6a0d.js",
+    "static/media/acc.jpg": "/static/media/acc.06d57c9ff76cce290973.jpg",
+    "static/media/recruitment.jpg": "/static/media/recruitment.8222740cf7a1130744c5.jpg",
+    "static/media/aaron.png": "/static/media/aaron.b5df5dc9b91ba5c98421.png",
+    "static/media/steven.png": "/static/media/steven.6354c17316af462c567a.png",
+    "static/media/christian.png": "/static/media/christian.1731c47c94997c58d758.png",
+    "static/media/brandon.png": "/static/media/brandon.f32f7afc3e39107b4062.png",
+    "static/media/LEAP_INS_WHITE.png": "/static/media/LEAP_INS_WHITE.79357a0152ea26b6e569.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/design.svg": "/static/media/design.c4c6772606863df1d0d361360ce7a121.svg",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "static/css/2.e1b25a95.chunk.css.map": "/static/css/2.e1b25a95.chunk.css.map",
-    "static/css/main.f30bfe22.chunk.css.map": "/static/css/main.f30bfe22.chunk.css.map",
-    "static/js/2.3e35a186.chunk.js.LICENSE.txt": "/static/js/2.3e35a186.chunk.js.LICENSE.txt",
-    "static/media/LEAP_INS_WHITE.79357a01.png": "/static/media/LEAP_INS_WHITE.79357a01.png",
-    "static/media/aaron.png": "/static/media/aaron.b5df5dc9.png",
-    "static/media/acc.JPG": "/static/media/acc.06d57c9f.JPG",
-    "static/media/brandon.png": "/static/media/brandon.f32f7afc.png",
-    "static/media/christian.png": "/static/media/christian.1731c47c.png",
-    "static/media/design.svg": "/static/media/design.c4c67726.svg",
-    "static/media/mission.png": "/static/media/mission.175c91cb.png",
-    "static/media/recruitment.JPG": "/static/media/recruitment.8222740c.JPG",
-    "static/media/styles.css": "/static/media/revicons.e8746a62.woff",
-    "static/media/steven.png": "/static/media/steven.6354c173.png"
+    "static/media/lifi.svg": "/static/media/lifi.c76f8d88b16fb450c855621b891640e0.svg",
+    "main.1963a2eb.css.map": "/static/css/main.1963a2eb.css.map",
+    "main.4bbb6a0d.js.map": "/static/js/main.4bbb6a0d.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.fe12ad78.js",
-    "static/css/2.e1b25a95.chunk.css",
-    "static/js/2.3e35a186.chunk.js",
-    "static/css/main.f30bfe22.chunk.css",
-    "static/js/main.012d473b.chunk.js"
+    "static/css/main.1963a2eb.css",
+    "static/js/main.4bbb6a0d.js"
   ]
 }
